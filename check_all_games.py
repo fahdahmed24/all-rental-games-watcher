@@ -8,10 +8,14 @@ from email.message import EmailMessage
 from playwright.sync_api import sync_playwright
 
 
-URL = os.environ.get(
-    "PRODUCT_URL",
-    "https://samuraistore.site/rental-games"
-)
+PRODUCT_URL = os.environ.get("PRODUCT_URL", "").strip()
+
+# Use the default only if the secret is missing or empty.
+URL = PRODUCT_URL or "https://samuraistore.site/rental-games"
+
+if not URL.startswith(("http://", "https://")):
+    raise ValueError(f"Invalid PRODUCT_URL: {URL!r}")
+
 
 STATE_FILE = "all_games_state.json"
 
@@ -24,22 +28,29 @@ def load_state():
     if not os.path.exists(STATE_FILE):
         return {
             "games": {},
-            "pending_changes": []
+            "pending_changes": [],
         }
 
     try:
         with open(STATE_FILE, "r", encoding="utf-8") as file:
             return json.load(file)
-    except Exception:
+    except Exception as error:
+        print(f"Could not load state file: {error}")
+
         return {
             "games": {},
-            "pending_changes": []
+            "pending_changes": [],
         }
 
 
 def save_state(state):
     with open(STATE_FILE, "w", encoding="utf-8") as file:
-        json.dump(state, file, indent=2, ensure_ascii=False)
+        json.dump(
+            state,
+            file,
+            indent=2,
+            ensure_ascii=False,
+        )
 
 
 def send_email(subject, body):
@@ -50,7 +61,10 @@ def send_email(subject, body):
     message.set_content(body)
 
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-        smtp.login(GMAIL_USERNAME, GMAIL_APP_PASSWORD)
+        smtp.login(
+            GMAIL_USERNAME,
+            GMAIL_APP_PASSWORD,
+        )
         smtp.send_message(message)
 
 
@@ -61,24 +75,27 @@ def clean_text(text):
 def detect_status(text):
     text = text.lower()
 
-    if any(value in text for value in [
+    rented_values = [
         "currently rented",
         "rented",
         "unavailable",
         "not available",
-        "out of stock"
-    ]):
-        return "Currently rented"
+        "out of stock",
+    ]
 
-    if any(value in text for value in [
+    available_values = [
         "available",
         "rent now",
         "add to cart",
-        "borrow"
-    ]):
+        "borrow",
+    ]
+
+    if any(value in text for value in rented_values):
+        return "Currently rented"
+
+    if any(value in text for value in available_values):
         return "Available"
 
-    # A button or label called only "Rent" usually means available.
     words = text.replace("\n", " ").split()
 
     if "rent" in words:
@@ -91,7 +108,7 @@ def extract_price(text):
     prices = re.findall(
         r"\d[\d,]*\s*(?:egp|le)",
         text,
-        flags=re.IGNORECASE
+        flags=re.IGNORECASE,
     )
 
     return ", ".join(dict.fromkeys(prices))
@@ -103,16 +120,22 @@ def extract_games():
         page = browser.new_page()
 
         try:
-            page.goto(URL, wait_until="networkidle", timeout=60_000)
+            print(f"Opening: {URL}")
+
+            page.goto(
+                URL,
+                wait_until="networkidle",
+                timeout=60_000,
+            )
+
             page.wait_for_timeout(3_000)
 
-            # Try common game-card/listing selectors.
             selectors = [
                 "article",
                 "[class*='card']",
                 "[class*='game']",
                 "[class*='product']",
-                "li"
+                "li",
             ]
 
             cards = []
@@ -122,7 +145,10 @@ def extract_games():
                 count = found.count()
 
                 if count >= 2:
-                    cards = [found.nth(i) for i in range(count)]
+                    cards = [
+                        found.nth(index)
+                        for index in range(count)
+                    ]
                     break
 
             if not cards:
@@ -133,7 +159,8 @@ def extract_games():
 
             for card in cards:
                 try:
-                    text = clean_text(card.inner_text())
+                    raw_text = card.inner_text()
+                    text = clean_text(raw_text)
                 except Exception:
                     continue
 
@@ -142,20 +169,21 @@ def extract_games():
 
                 lower_text = text.lower()
 
-                # Ignore page navigation and unrelated elements.
-                if not any(word in lower_text for word in [
-                    "rented",
-                    "available",
-                    "rent",
-                    "egp",
-                    "days"
-                ]):
+                if not any(
+                    word in lower_text
+                    for word in [
+                        "rented",
+                        "available",
+                        "rent",
+                        "egp",
+                        "days",
+                    ]
+                ):
                     continue
 
-                # Find a title from the first meaningful line.
                 lines = [
                     clean_text(line)
-                    for line in card.inner_text().splitlines()
+                    for line in raw_text.splitlines()
                     if clean_text(line)
                 ]
 
@@ -164,22 +192,27 @@ def extract_games():
 
                 title = None
 
+                ignored_words = [
+                    "rented",
+                    "available",
+                    "rental",
+                    "price",
+                    "account option",
+                    "primary",
+                    "secondary",
+                    "days",
+                    "egp",
+                    "rent",
+                    "buy now",
+                ]
+
                 for line in lines:
                     lower_line = line.lower()
 
-                    if any(skip in lower_line for skip in [
-                        "rented",
-                        "available",
-                        "rental",
-                        "price",
-                        "account option",
-                        "primary",
-                        "secondary",
-                        "days",
-                        "egp",
-                        "rent",
-                        "buy now"
-                    ]):
+                    if any(
+                        ignored_word in lower_line
+                        for ignored_word in ignored_words
+                    ):
                         continue
 
                     if len(line) >= 2:
@@ -191,14 +224,13 @@ def extract_games():
 
                 status = detect_status(text)
                 price = extract_price(text)
-
                 key = title.lower()
 
                 games[key] = {
                     "title": title,
                     "status": status,
                     "price": price,
-                    "details": text
+                    "details": text,
                 }
 
             print(f"Found {len(games)} games.")
@@ -210,6 +242,7 @@ def extract_games():
 
 def check_games():
     state = load_state()
+
     old_games = state.get("games", {})
     pending_changes = state.get("pending_changes", [])
 
@@ -219,21 +252,25 @@ def check_games():
     current_games = extract_games()
 
     if not current_games:
-        print("No games extracted. Existing state was not changed.")
+        print("No games extracted.")
+        print("Existing state was not changed.")
         return
 
     for key, game in current_games.items():
         if key not in old_games:
-            # Do not call all games "new" on the very first run.
+            # The first successful run creates the baseline.
+            # Existing games are not marked as new.
             if old_games:
                 new_games.append(game)
 
-                pending_changes.append({
-                    "type": "new",
-                    "title": game["title"],
-                    "status": game["status"],
-                    "price": game["price"]
-                })
+                pending_changes.append(
+                    {
+                        "type": "new",
+                        "title": game["title"],
+                        "status": game["status"],
+                        "price": game["price"],
+                    }
+                )
 
         else:
             old_status = old_games[key].get("status")
@@ -249,7 +286,7 @@ def check_games():
                     "title": game["title"],
                     "old_status": old_status,
                     "new_status": new_status,
-                    "price": game["price"]
+                    "price": game["price"],
                 }
 
                 status_changes.append(change)
@@ -271,7 +308,11 @@ def check_games():
                 f"Price: {game['price'] or 'Not found'}\n\n"
             )
 
-        send_email("🆕 New rental game added", body)
+        send_email(
+            "🆕 New rental game added",
+            body,
+        )
+
         print("New-game email sent.")
 
     if status_changes:
@@ -280,7 +321,8 @@ def check_games():
         for change in status_changes:
             print(
                 f"{change['title']}: "
-                f"{change['old_status']} -> {change['new_status']}"
+                f"{change['old_status']} -> "
+                f"{change['new_status']}"
             )
 
     print("Game check completed.")
@@ -288,19 +330,23 @@ def check_games():
 
 def send_daily_report():
     state = load_state()
+
     games = state.get("games", {})
     pending_changes = state.get("pending_changes", [])
 
     if not games:
-        print("No saved games. Daily report was not sent.")
+        print("No saved games.")
+        print("Daily report was not sent.")
         return
 
     body = "Daily rental games report\n"
-    body += "=" * 30 + "\n\n"
+    body += "=" * 30
+    body += "\n\n"
 
     if pending_changes:
         body += "CHANGES SINCE THE LAST REPORT\n"
-        body += "-" * 30 + "\n"
+        body += "-" * 30
+        body += "\n\n"
 
         for change in pending_changes:
             if change["type"] == "new":
@@ -312,7 +358,7 @@ def send_daily_report():
             else:
                 body += (
                     f"🔄 STATUS CHANGED: {change['title']}\n"
-                    f"{change['old_status']} -> "
+                    f"{change['old_status']} → "
                     f"{change['new_status']}\n"
                     f"Price: {change['price'] or 'Not found'}\n\n"
                 )
@@ -320,11 +366,12 @@ def send_daily_report():
         body += "No changes since the last report.\n\n"
 
     body += "ALL GAMES\n"
-    body += "-" * 30 + "\n"
+    body += "-" * 30
+    body += "\n\n"
 
     sorted_games = sorted(
         games.values(),
-        key=lambda game: game["title"].lower()
+        key=lambda game: game["title"].lower(),
     )
 
     for game in sorted_games:
@@ -334,18 +381,21 @@ def send_daily_report():
             f"Price: {game['price'] or 'Not found'}\n\n"
         )
 
-    send_email("Daily rental games report", body)
+    send_email(
+        "Daily rental games report",
+        body,
+    )
 
-    # Changes have now been included in the daily report.
     state["pending_changes"] = []
     state["last_report"] = datetime.now(timezone.utc).isoformat()
+
     save_state(state)
 
     print("Daily report sent.")
 
 
 if __name__ == "__main__":
-    mode = os.environ.get("CHECK_MODE", "check")
+    mode = os.environ.get("CHECK_MODE", "check").strip().lower()
 
     if mode == "daily":
         send_daily_report()
