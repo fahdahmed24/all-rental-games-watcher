@@ -2,11 +2,10 @@ name: All rental games watcher
 
 on:
   schedule:
-    # Check for new games and status changes every five minutes
+    # Every five minutes
     - cron: "*/5 * * * *"
 
-    # Daily report at 1:00 PM Doha time
-    # Doha is UTC+3, so this is 10:00 AM UTC
+    # 10:00 UTC = 1:00 PM Doha time
     - cron: "0 10 * * *"
 
   workflow_dispatch:
@@ -35,6 +34,35 @@ jobs:
           pip install playwright
           playwright install --with-deps chromium
 
+      - name: Check required secrets
+        env:
+          PRODUCT_URL: ${{ secrets.PRODUCT_URL }}
+          GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_TO: ${{ secrets.ALERT_TO }}
+        run: |
+          test -n "$PRODUCT_URL" || {
+            echo "PRODUCT_URL is empty"
+            exit 1
+          }
+
+          test -n "$GMAIL_USERNAME" || {
+            echo "GMAIL_USERNAME is empty"
+            exit 1
+          }
+
+          test -n "$GMAIL_APP_PASSWORD" || {
+            echo "GMAIL_APP_PASSWORD is empty"
+            exit 1
+          }
+
+          test -n "$ALERT_TO" || {
+            echo "ALERT_TO is empty"
+            exit 1
+          }
+
+          echo "All required secrets are present"
+
       - name: Check for new games and status changes
         if: github.event_name == 'workflow_dispatch' || github.event.schedule == '*/5 * * * *'
         env:
@@ -46,7 +74,7 @@ jobs:
         run: python check_all_games.py
 
       - name: Send daily report
-        if: github.event.schedule == '0 10 * * *'
+        if: github.event_name == 'schedule' && github.event.schedule == '0 10 * * *'
         env:
           CHECK_MODE: daily
           PRODUCT_URL: ${{ secrets.PRODUCT_URL }}
@@ -59,10 +87,13 @@ jobs:
         if: always() && hashFiles('all_games_state.json') != ''
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+users.noreply.github.com"
 
           git add all_games_state.json
 
-          git diff --cached --quiet || git commit -m "Update all games state"
-
-          git push
+          if git diff --cached --quiet; then
+            echo "No state changes to commit"
+          else
+            git commit -m "Update all games state"
+            git push
+          fi
