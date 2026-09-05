@@ -1,18 +1,824 @@
 {
   "games": {
+    "ninja gaiden 4": {
+      "title": "Ninja Gaiden 4",
+      "status": "Available",
+      "price": "320 EGP, 400 EGP, 480 EGP",
+      "details": "AVAILABLE NOW GENERAL Ninja Gaiden 4 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 320 EGP 21 days 400 EGP 30 days 480 EGP RENTAL PRICE 320 EGP ADD TO CART BUY NOW"
+    },
+    "mafia: the old country": {
+      "title": "Mafia: The Old Country",
+      "status": "Available",
+      "price": "315 EGP, 395 EGP, 475 EGP",
+      "details": "AVAILABLE NOW GENERAL Mafia: The Old Country ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 315 EGP 21 days 395 EGP 30 days 475 EGP RENTAL PRICE 315 EGP ADD TO CART BUY NOW"
+    },
+    "silent hill f": {
+      "title": "Silent Hill F",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP",
+      "details": "AVAILABLE NOW GENERAL Silent Hill F ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+    },
+    "pragmata (arabic)": {
+      "title": "PRAGMATA (Arabic)",
+      "status": "Currently rented",
+      "price": "450 EGP, 560 EGP, 625 EGP",
+      "details": "CURRENTLY RENTED ARABIC GENERAL PRAGMATA (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 625 EGP RENTAL PRICE 450 EGP CURRENTLY RENTED BUY NOW"
+    },
+    "dragon dogma 2": {
+      "title": "Dragon Dogma 2",
+      "status": "Available",
+      "price": "270 EGP, 330 EGP, 400 EGP",
+      "details": "AVAILABLE NOW GENERAL Dragon Dogma 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 270 EGP 21 days 330 EGP 30 days 400 EGP RENTAL PRICE 270 EGP ADD TO CART BUY NOW"
+    },
+    "a quiet place": {
+      "title": "A Quiet Place",
+      "status": "Available",
+      "price": "250 EGP, 310 EGP, 360 EGP",
+      "details": "AVAILABLE NOW GENERAL A Quiet Place ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 250 EGP 21 days 310 EGP 30 days 360 EGP RENTAL PRICE 250 EGP ADD TO CART BUY NOW"
+    },
+    "death stranding 2: on the beach (arabic)": {
+      "title": "DEATH STRANDING 2: ON THE BEACH (Arabic)",
+      "status": "Available",
+      "price": "350 EGP, 430 EGP, 500 EGP",
+      "details": "AVAILABLE NOW ARABIC GENERAL DEATH STRANDING 2: ON THE BEACH (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 430 EGP 30 days 500 EGP RENTAL PRICE 350 EGP ADD TO CART BUY NOW"
+    },
+    "spiderman 2 (arabic)": {
+      "title": "Spiderman 2 (Arabic)",
+      "status": "Currently rented",
+      "price": "350 EGP, 440 EGP, 525 EGP",
+      "details": "CURRENTLY RENTED ARABIC GENERAL Spiderman 2 (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 440 EGP 30 days 525 EGP RENTAL PRICE 350 EGP CURRENTLY RENTED BUY NOW"
+    },
+    "black myth wukong": {
+      "title": "Black Myth Wukong",
+      "status": "Currently rented",
+      "price": "275 EGP, 345 EGP, 420 EGP",
+      "details": "CURRENTLY RENTED GENERAL Black Myth Wukong ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 275 EGP 21 days 345 EGP 30 days 420 EGP RENTAL PRICE 275 EGP CURRENTLY RENTED BUY NOW"
+    },
+    "metal gear solid δ: snake eater digital": {
+      "title": "METAL GEAR SOLID Δ: SNAKE EATER Digital",
+      "status": "Available",
+      "price": "310 EGP, 390 EGP, 460 EGP",
+      "details": "AVAILABLE NOW GENERAL METAL GEAR SOLID Δ: SNAKE EATER Digital ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 310 EGP 21 days 390 EGP 30 days 460 EGP RENTAL PRICE 310 EGP ADD TO CART BUY NOW"
+    },
+    "doom the dark ages": {
+      "title": "Doom The Dark Ages",
+      "status": "Currently rented",
+      "price": "325 EGP, 400 EGP, 475 EGP",
+      "details": "UNAVAILABLE GENERAL Doom The Dark Ages ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 325 EGP 21 days 400 EGP 30 days 475 EGP RENTAL PRICE 325 EGP UNAVAILABLE BUY NOW"
+    },
+    "dying light the beast (arabic)": {
+      "title": "Dying Light The Beast (Arabic)",
+      "status": "Available",
+      "price": "325 EGP, 400 EGP, 475 EGP",
+      "details": "AVAILABLE NOW ARABIC GENERAL Dying Light The Beast (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 325 EGP 21 days 400 EGP 30 days 475 EGP RENTAL PRICE 325 EGP ADD TO CART BUY NOW"
+    },
+    "hellblade 2 (arabic)": {
+      "title": "Hellblade 2 (Arabic)",
+      "status": "Currently rented",
+      "price": "300 EGP, 375 EGP, 450 EGP",
+      "details": "CURRENTLY RENTED ARABIC GENERAL Hellblade 2 (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP CURRENTLY RENTED BUY NOW"
+    },
+    "clair obscur: expedition 33": {
+      "title": "Clair Obscur: Expedition 33",
+      "status": "Currently rented",
+      "price": "300 EGP, 375 EGP, 450 EGP",
+      "details": "CURRENTLY RENTED GENERAL Clair Obscur: Expedition 33 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP CURRENTLY RENTED BUY NOW"
+    },
+    "saros (arabic)": {
+      "title": "SAROS (Arabic)",
+      "status": "Available",
+      "price": "450 EGP, 550 EGP, 650 EGP",
+      "details": "AVAILABLE NOW ARABIC GENERAL SAROS (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
+    },
+    "split fiction": {
+      "title": "Split Fiction",
+      "status": "Currently rented",
+      "price": "300 EGP, 375 EGP, 450 EGP",
+      "details": "CURRENTLY RENTED GENERAL Split Fiction ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP CURRENTLY RENTED BUY NOW"
+    },
+    "ghost of yotei": {
+      "title": "Ghost Of Yotei",
+      "status": "Currently rented",
+      "price": "400 EGP, 500 EGP, 600 EGP",
+      "details": "CURRENTLY RENTED GENERAL Ghost Of Yotei ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP CURRENTLY RENTED BUY NOW"
+    },
+    "elden ring": {
+      "title": "Elden Ring",
+      "status": "Available",
+      "price": "275 EGP, 300 EGP, 400 EGP",
+      "details": "AVAILABLE NOW GENERAL Elden Ring ACCOUNT OPTION Primary PS5 Primary PS4 Secondary RENTAL PERIOD 14 days 275 EGP 21 days 300 EGP 30 days 400 EGP RENTAL PRICE 275 EGP ADD TO CART BUY NOW"
+    },
+    "indiana jones and the great circle (arabic)": {
+      "title": "Indiana Jones and the Great Circle (Arabic)",
+      "status": "Currently rented",
+      "price": "350 EGP, 440 EGP, 552 EGP",
+      "details": "CURRENTLY RENTED ARABIC GENERAL Indiana Jones and the Great Circle (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 440 EGP 30 days 552 EGP RENTAL PRICE 350 EGP CURRENTLY RENTED BUY NOW"
+    },
+    "astro bot": {
+      "title": "Astro Bot",
+      "status": "Available",
+      "price": "350 EGP, 430 EGP, 552 EGP",
+      "details": "AVAILABLE NOW GENERAL Astro Bot ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 430 EGP 30 days 552 EGP RENTAL PRICE 350 EGP ADD TO CART BUY NOW"
+    },
+    "resident evil requiem": {
+      "title": "Resident Evil Requiem",
+      "status": "Available",
+      "price": "500 EGP, 600 EGP, 725 EGP",
+      "details": "AVAILABLE NOW GENERAL Resident Evil Requiem ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 500 EGP 21 days 600 EGP 30 days 725 EGP RENTAL PRICE 500 EGP ADD TO CART BUY NOW"
+    },
+    "god of war raganarok (arabic)": {
+      "title": "God Of War Raganarok (Arabic)",
+      "status": "Currently rented",
+      "price": "225 EGP, 300 EGP, 375 EGP",
+      "details": "CURRENTLY RENTED ARABIC GENERAL God Of War Raganarok (Arabic) ACCOUNT OPTION Primary PS5 Primary PS4 Secondary RENTAL PERIOD 14 days 225 EGP 21 days 300 EGP 30 days 375 EGP RENTAL PRICE 225 EGP CURRENTLY RENTED BUY NOW"
+    },
+    "cronos new dawn": {
+      "title": "Cronos New Dawn",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP",
+      "details": "AVAILABLE NOW GENERAL Cronos New Dawn ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+    },
+    "borderlands 4": {
+      "title": "Borderlands 4",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP",
+      "details": "AVAILABLE NOW GENERAL Borderlands 4 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+    },
     "general": {
       "title": "GENERAL",
-      "status": "Currently rented",
-      "price": "450 EGP, 560 EGP, 700 EGP",
-      "details": "CURRENTLY RENTED GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP CURRENTLY RENTED BUY NOW"
+      "status": "Available",
+      "price": "320 EGP, 400 EGP, 475 EGP",
+      "details": "AVAILABLE NOW GENERAL Days Gone ACCOUNT OPTION Primary PS5 Primary PS4 Secondary RENTAL PERIOD 14 days 320 EGP 21 days 400 EGP 30 days 475 EGP RENTAL PRICE 320 EGP ADD TO CART BUY NOW"
     },
-    "arabic": {
-      "title": "ARABIC",
+    "the last of us part 2": {
+      "title": "The Last Of Us Part 2",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP",
+      "details": "AVAILABLE NOW GENERAL The Last Of Us Part 2 ACCOUNT OPTION Primary PS5 Primary PS4 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+    },
+    "cyberpunk 2077: ultimate edition (arabic)": {
+      "title": "Cyberpunk 2077: Ultimate Edition (Arabic)",
+      "status": "Available",
+      "price": "275 EGP, 350 EGP, 415 EGP",
+      "details": "AVAILABLE NOW ARABIC GENERAL Cyberpunk 2077: Ultimate Edition (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 275 EGP 21 days 350 EGP 30 days 415 EGP RENTAL PRICE 275 EGP ADD TO CART BUY NOW"
+    },
+    "assassin's creed shadows": {
+      "title": "Assassin's Creed Shadows",
+      "status": "Available",
+      "price": "360 EGP, 450 EGP, 525 EGP",
+      "details": "AVAILABLE NOW GENERAL Assassin's Creed Shadows ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 360 EGP 21 days 450 EGP 30 days 525 EGP RENTAL PRICE 360 EGP ADD TO CART BUY NOW"
+    },
+    "vr metro awakening": {
+      "title": "VR Metro Awakening",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 525 EGP",
+      "details": "AVAILABLE NOW GENERAL VR Metro Awakening ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 525 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+    },
+    "lies of p: overture bundle": {
+      "title": "Lies of P: Overture Bundle",
+      "status": "Available",
+      "price": "250 EGP, 325 EGP, 375 EGP",
+      "details": "AVAILABLE NOW GENERAL Lies of P: Overture Bundle ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 250 EGP 21 days 325 EGP 30 days 375 EGP RENTAL PRICE 250 EGP ADD TO CART BUY NOW"
+    },
+    "kingdom come: deliverance ii": {
+      "title": "Kingdom Come: Deliverance II",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 425 EGP",
+      "details": "AVAILABLE NOW GENERAL Kingdom Come: Deliverance II ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 425 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+    },
+    "dispatch": {
+      "title": "Dispatch",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 425 EGP",
+      "details": "AVAILABLE NOW GENERAL Dispatch ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 425 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+    },
+    "nioh 3": {
+      "title": "Nioh 3",
+      "status": "Available",
+      "price": "400 EGP, 500 EGP, 600 EGP",
+      "details": "AVAILABLE NOW GENERAL Nioh 3 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP ADD TO CART BUY NOW"
+    },
+    "god of war sons of sparta": {
+      "title": "God of War Sons of Sparta",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP",
+      "details": "AVAILABLE NOW GENERAL God of War Sons of Sparta ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+    },
+    "reanimal": {
+      "title": "REANIMAL",
+      "status": "Available",
+      "price": "325 EGP, 405 EGP, 485 EGP",
+      "details": "AVAILABLE NOW GENERAL REANIMAL ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 325 EGP 21 days 405 EGP 30 days 485 EGP RENTAL PRICE 325 EGP ADD TO CART BUY NOW"
+    },
+    "silent hill 2": {
+      "title": "Silent Hill 2",
+      "status": "Available",
+      "price": "275 EGP, 350 EGP, 415 EGP",
+      "details": "AVAILABLE NOW GENERAL Silent Hill 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 275 EGP 21 days 350 EGP 30 days 415 EGP RENTAL PRICE 275 EGP ADD TO CART BUY NOW"
+    },
+    "crimson desert": {
+      "title": "Crimson Desert",
+      "status": "Available",
+      "price": "450 EGP, 550 EGP, 650 EGP",
+      "details": "AVAILABLE NOW GENERAL Crimson Desert ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
+    },
+    "007 first light": {
+      "title": "007 First Light",
+      "status": "Currently rented",
+      "price": "475 EGP, 600 EGP, 725 EGP",
+      "details": "CURRENTLY RENTED GENERAL 007 First Light ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 475 EGP 21 days 600 EGP 30 days 725 EGP RENTAL PRICE 475 EGP CURRENTLY RENTED BUY NOW"
+    },
+    "baldur's gate 3": {
+      "title": "Baldur's Gate 3",
+      "status": "Available",
+      "price": "400 EGP, 500 EGP, 600 EGP",
+      "details": "AVAILABLE NOW GENERAL Baldur's Gate 3 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP ADD TO CART BUY NOW"
+    },
+    "directive 8020": {
+      "title": "Directive 8020",
+      "status": "Available",
+      "price": "400 EGP, 500 EGP, 600 EGP",
+      "details": "AVAILABLE NOW GENERAL Directive 8020 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP ADD TO CART BUY NOW"
+    },
+    "alone in the dark - digital deluxe edition (arabic)": {
+      "title": "Alone in the Dark - Digital Deluxe Edition (Arabic)",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP",
+      "details": "AVAILABLE NOW ARABIC GENERAL Alone in the Dark - Digital Deluxe Edition (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+    },
+    "lego® batman™: legacy of the dark knight (arabic)": {
+      "title": "LEGO® Batman™: Legacy of the Dark Knight (Arabic)",
+      "status": "Available",
+      "price": "450 EGP, 550 EGP, 650 EGP",
+      "details": "AVAILABLE NOW ARABIC GENERAL LEGO® Batman™: Legacy of the Dark Knight (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
+    },
+    "mouse: p.i. for hire": {
+      "title": "MOUSE: P.I. For Hire",
+      "status": "Available",
+      "price": "380 EGP, 475 EGP, 570 EGP",
+      "details": "AVAILABLE NOW GENERAL MOUSE: P.I. For Hire ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 380 EGP 21 days 475 EGP 30 days 570 EGP RENTAL PRICE 380 EGP ADD TO CART BUY NOW"
+    },
+    "starfield": {
+      "title": "Starfield",
+      "status": "Available",
+      "price": "350 EGP, 440 EGP, 525 EGP",
+      "details": "AVAILABLE NOW GENERAL Starfield ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 440 EGP 30 days 525 EGP RENTAL PRICE 350 EGP ADD TO CART BUY NOW"
+    },
+    "stellar blade (arabic)": {
+      "title": "Stellar Blade (Arabic)",
+      "status": "Available",
+      "price": "350 EGP, 440 EGP, 525 EGP",
+      "details": "AVAILABLE NOW ARABIC GENERAL Stellar Blade (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 440 EGP 30 days 525 EGP RENTAL PRICE 350 EGP ADD TO CART BUY NOW"
+    },
+    "the last of us remake": {
+      "title": "The Last of Us Remake",
+      "status": "Available",
+      "price": "350 EGP, 440 EGP, 525 EGP",
+      "details": "AVAILABLE NOW GENERAL The Last of Us Remake ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 440 EGP 30 days 525 EGP RENTAL PRICE 350 EGP ADD TO CART BUY NOW"
+    },
+    "gears of war: reloaded": {
+      "title": "Gears of War: Reloaded",
+      "status": "Currently rented",
+      "price": "300 EGP, 375 EGP, 450 EGP",
+      "details": "CURRENTLY RENTED GENERAL Gears of War: Reloaded ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP CURRENTLY RENTED BUY NOW"
+    },
+    "dragon ball: sparking zero": {
+      "title": "Dragon Ball: Sparking Zero",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP",
+      "details": "AVAILABLE NOW GENERAL Dragon Ball: Sparking Zero ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+    },
+    "ready or not": {
+      "title": "Ready Or Not",
+      "status": "Currently rented",
+      "price": "325 EGP, 400 EGP, 475 EGP",
+      "details": "CURRENTLY RENTED GENERAL Ready Or Not ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 325 EGP 21 days 400 EGP 30 days 475 EGP RENTAL PRICE 325 EGP CURRENTLY RENTED BUY NOW"
+    },
+    "little nightmares iii (arabic)": {
+      "title": "Little Nightmares III (Arabic)",
+      "status": "Available",
+      "price": "250 EGP, 310 EGP, 375 EGP",
+      "details": "AVAILABLE NOW ARABIC GENERAL Little Nightmares III (Arabic) ACCOUNT OPTION Primary PS5 Primary PS4 Secondary RENTAL PERIOD 14 days 250 EGP 21 days 310 EGP 30 days 375 EGP RENTAL PRICE 250 EGP ADD TO CART BUY NOW"
+    },
+    "darwin's paradox!": {
+      "title": "Darwin's Paradox!",
+      "status": "Available",
+      "price": "250 EGP, 310 EGP, 375 EGP",
+      "details": "AVAILABLE NOW GENERAL Darwin's Paradox! ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 250 EGP 21 days 310 EGP 30 days 375 EGP RENTAL PRICE 250 EGP ADD TO CART BUY NOW"
+    },
+    "atomic heart": {
+      "title": "Atomic Heart",
+      "status": "Available",
+      "price": "250 EGP, 310 EGP, 375 EGP",
+      "details": "AVAILABLE NOW GENERAL Atomic Heart ACCOUNT OPTION Primary PS5 Primary PS4 Secondary RENTAL PERIOD 14 days 250 EGP 21 days 310 EGP 30 days 375 EGP RENTAL PRICE 250 EGP ADD TO CART BUY NOW"
+    },
+    "dynasty warriors: origins digital deluxe edition": {
+      "title": "DYNASTY WARRIORS: ORIGINS Digital Deluxe Edition",
+      "status": "Available",
+      "price": "275 EGP, 350 EGP, 400 EGP",
+      "details": "AVAILABLE NOW GENERAL DYNASTY WARRIORS: ORIGINS Digital Deluxe Edition ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 275 EGP 21 days 350 EGP 30 days 400 EGP RENTAL PRICE 275 EGP ADD TO CART BUY NOW"
+    },
+    "the outer worlds 2": {
+      "title": "the outer worlds 2",
+      "status": "Available",
+      "price": "275 EGP, 350 EGP, 400 EGP",
+      "details": "AVAILABLE NOW GENERAL the outer worlds 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 275 EGP 21 days 350 EGP 30 days 400 EGP RENTAL PRICE 275 EGP ADD TO CART BUY NOW"
+    },
+    "hades 2": {
+      "title": "Hades 2",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP",
+      "details": "AVAILABLE NOW GENERAL Hades 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+    },
+    "the first berserker: khazan standard edition": {
+      "title": "The First Berserker: Khazan Standard Edition",
+      "status": "Available",
+      "price": "260 EGP, 325 EGP, 390 EGP",
+      "details": "AVAILABLE NOW GENERAL The First Berserker: Khazan Standard Edition ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 260 EGP 21 days 325 EGP 30 days 390 EGP RENTAL PRICE 260 EGP ADD TO CART BUY NOW"
+    },
+    "stray": {
+      "title": "Stray",
+      "status": "Available",
+      "price": "225 EGP, 280 EGP, 340 EGP",
+      "details": "AVAILABLE NOW GENERAL Stray ACCOUNT OPTION Primary PS5 Primary PS4 Secondary RENTAL PERIOD 14 days 225 EGP 21 days 280 EGP 30 days 340 EGP RENTAL PRICE 225 EGP ADD TO CART BUY NOW"
+    },
+    "returnal (arabic)": {
+      "title": "Returnal (Arabic)",
+      "status": "Available",
+      "price": "200 EGP, 250 EGP, 300 EGP",
+      "details": "AVAILABLE NOW ARABIC GENERAL Returnal (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 200 EGP 21 days 250 EGP 30 days 300 EGP RENTAL PRICE 200 EGP ADD TO CART BUY NOW"
+    },
+    "ratchet & clank: rift apart (arabic)": {
+      "title": "Ratchet & Clank: Rift Apart (Arabic)",
+      "status": "Available",
+      "price": "200 EGP, 250 EGP, 300 EGP",
+      "details": "AVAILABLE NOW ARABIC GENERAL Ratchet & Clank: Rift Apart (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 200 EGP 21 days 250 EGP 30 days 300 EGP RENTAL PRICE 200 EGP ADD TO CART BUY NOW"
+    },
+    "madison": {
+      "title": "Madison",
+      "status": "Available",
+      "price": "225 EGP, 300 EGP, 345 EGP",
+      "details": "AVAILABLE NOW GENERAL Madison ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 225 EGP 21 days 300 EGP 30 days 345 EGP RENTAL PRICE 225 EGP ADD TO CART BUY NOW"
+    },
+    "lost soul aside": {
+      "title": "Lost Soul Aside",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP",
+      "details": "AVAILABLE NOW GENERAL Lost Soul Aside ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+    },
+    "horizon forbidden west (arabic)": {
+      "title": "Horizon Forbidden West (Arabic)",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP",
+      "details": "AVAILABLE NOW ARABIC GENERAL Horizon Forbidden West (Arabic) ACCOUNT OPTION Primary PS5 Primary PS4 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+    },
+    "dead space": {
+      "title": "Dead Space",
+      "status": "Available",
+      "price": "275 EGP, 350 EGP, 425 EGP",
+      "details": "AVAILABLE NOW GENERAL Dead Space ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 275 EGP 21 days 350 EGP 30 days 425 EGP RENTAL PRICE 275 EGP ADD TO CART BUY NOW"
+    },
+    "avatar: frontiers of pandora": {
+      "title": "Avatar: Frontiers of Pandora",
+      "status": "Available",
+      "price": "275 EGP, 350 EGP, 425 EGP",
+      "details": "AVAILABLE NOW GENERAL Avatar: Frontiers of Pandora ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 275 EGP 21 days 350 EGP 30 days 425 EGP RENTAL PRICE 275 EGP ADD TO CART BUY NOW"
+    },
+    "alan wake 2": {
+      "title": "Alan Wake 2",
+      "status": "Available",
+      "price": "275 EGP, 350 EGP, 425 EGP",
+      "details": "AVAILABLE NOW GENERAL Alan Wake 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 275 EGP 21 days 350 EGP 30 days 425 EGP RENTAL PRICE 275 EGP ADD TO CART BUY NOW"
+    },
+    "assassin's creed black flag resynced (arabic)": {
+      "title": "Assassin's Creed Black Flag Resynced (Arabic)",
       "status": "Currently rented",
       "price": "450 EGP, 560 EGP, 625 EGP",
       "details": "CURRENTLY RENTED ARABIC GENERAL Assassin's Creed Black Flag Resynced (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 625 EGP RENTAL PRICE 450 EGP CURRENTLY RENTED BUY NOW"
+    },
+    "resonance a plague tale legacy": {
+      "title": "Resonance A Plague Tale Legacy",
+      "status": "Currently rented",
+      "price": "450 EGP, 560 EGP, 700 EGP",
+      "details": "CURRENTLY RENTED GENERAL Resonance A Plague Tale Legacy ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP CURRENTLY RENTED BUY NOW"
+    },
+    "the sinking city 2": {
+      "title": "The Sinking City 2",
+      "status": "Currently rented",
+      "price": "450 EGP, 560 EGP, 700 EGP",
+      "details": "CURRENTLY RENTED GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP CURRENTLY RENTED BUY NOW"
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-09-04T23:58:31.150675+00:00"
+  "pending_changes": [
+    {
+      "type": "new",
+      "title": "Ninja Gaiden 4",
+      "status": "Available",
+      "price": "320 EGP, 400 EGP, 480 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Mafia: The Old Country",
+      "status": "Available",
+      "price": "315 EGP, 395 EGP, 475 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Silent Hill F",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "new",
+      "title": "PRAGMATA (Arabic)",
+      "status": "Currently rented",
+      "price": "450 EGP, 560 EGP, 625 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Dragon Dogma 2",
+      "status": "Available",
+      "price": "270 EGP, 330 EGP, 400 EGP"
+    },
+    {
+      "type": "new",
+      "title": "A Quiet Place",
+      "status": "Available",
+      "price": "250 EGP, 310 EGP, 360 EGP"
+    },
+    {
+      "type": "new",
+      "title": "DEATH STRANDING 2: ON THE BEACH (Arabic)",
+      "status": "Available",
+      "price": "350 EGP, 430 EGP, 500 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Spiderman 2 (Arabic)",
+      "status": "Currently rented",
+      "price": "350 EGP, 440 EGP, 525 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Black Myth Wukong",
+      "status": "Currently rented",
+      "price": "275 EGP, 345 EGP, 420 EGP"
+    },
+    {
+      "type": "new",
+      "title": "METAL GEAR SOLID Δ: SNAKE EATER Digital",
+      "status": "Available",
+      "price": "310 EGP, 390 EGP, 460 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Doom The Dark Ages",
+      "status": "Currently rented",
+      "price": "325 EGP, 400 EGP, 475 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Dying Light The Beast (Arabic)",
+      "status": "Available",
+      "price": "325 EGP, 400 EGP, 475 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Hellblade 2 (Arabic)",
+      "status": "Currently rented",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Clair Obscur: Expedition 33",
+      "status": "Currently rented",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "new",
+      "title": "SAROS (Arabic)",
+      "status": "Available",
+      "price": "450 EGP, 550 EGP, 650 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Split Fiction",
+      "status": "Currently rented",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Ghost Of Yotei",
+      "status": "Currently rented",
+      "price": "400 EGP, 500 EGP, 600 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Elden Ring",
+      "status": "Available",
+      "price": "275 EGP, 300 EGP, 400 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Indiana Jones and the Great Circle (Arabic)",
+      "status": "Currently rented",
+      "price": "350 EGP, 440 EGP, 552 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Astro Bot",
+      "status": "Available",
+      "price": "350 EGP, 430 EGP, 552 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Resident Evil Requiem",
+      "status": "Available",
+      "price": "500 EGP, 600 EGP, 725 EGP"
+    },
+    {
+      "type": "new",
+      "title": "God Of War Raganarok (Arabic)",
+      "status": "Currently rented",
+      "price": "225 EGP, 300 EGP, 375 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Cronos New Dawn",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Borderlands 4",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "status",
+      "title": "GENERAL",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "320 EGP, 400 EGP, 475 EGP"
+    },
+    {
+      "type": "new",
+      "title": "The Last Of Us Part 2",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Cyberpunk 2077: Ultimate Edition (Arabic)",
+      "status": "Available",
+      "price": "275 EGP, 350 EGP, 415 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Assassin's Creed Shadows",
+      "status": "Available",
+      "price": "360 EGP, 450 EGP, 525 EGP"
+    },
+    {
+      "type": "new",
+      "title": "VR Metro Awakening",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 525 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Lies of P: Overture Bundle",
+      "status": "Available",
+      "price": "250 EGP, 325 EGP, 375 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Kingdom Come: Deliverance II",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 425 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Dispatch",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 425 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Nioh 3",
+      "status": "Available",
+      "price": "400 EGP, 500 EGP, 600 EGP"
+    },
+    {
+      "type": "new",
+      "title": "God of War Sons of Sparta",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "new",
+      "title": "REANIMAL",
+      "status": "Available",
+      "price": "325 EGP, 405 EGP, 485 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Silent Hill 2",
+      "status": "Available",
+      "price": "275 EGP, 350 EGP, 415 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Crimson Desert",
+      "status": "Available",
+      "price": "450 EGP, 550 EGP, 650 EGP"
+    },
+    {
+      "type": "new",
+      "title": "007 First Light",
+      "status": "Currently rented",
+      "price": "475 EGP, 600 EGP, 725 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Baldur's Gate 3",
+      "status": "Available",
+      "price": "400 EGP, 500 EGP, 600 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Directive 8020",
+      "status": "Available",
+      "price": "400 EGP, 500 EGP, 600 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Alone in the Dark - Digital Deluxe Edition (Arabic)",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "new",
+      "title": "LEGO® Batman™: Legacy of the Dark Knight (Arabic)",
+      "status": "Available",
+      "price": "450 EGP, 550 EGP, 650 EGP"
+    },
+    {
+      "type": "new",
+      "title": "MOUSE: P.I. For Hire",
+      "status": "Available",
+      "price": "380 EGP, 475 EGP, 570 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Starfield",
+      "status": "Available",
+      "price": "350 EGP, 440 EGP, 525 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Stellar Blade (Arabic)",
+      "status": "Available",
+      "price": "350 EGP, 440 EGP, 525 EGP"
+    },
+    {
+      "type": "new",
+      "title": "The Last of Us Remake",
+      "status": "Available",
+      "price": "350 EGP, 440 EGP, 525 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Gears of War: Reloaded",
+      "status": "Currently rented",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Dragon Ball: Sparking Zero",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Ready Or Not",
+      "status": "Currently rented",
+      "price": "325 EGP, 400 EGP, 475 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Little Nightmares III (Arabic)",
+      "status": "Available",
+      "price": "250 EGP, 310 EGP, 375 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Darwin's Paradox!",
+      "status": "Available",
+      "price": "250 EGP, 310 EGP, 375 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Atomic Heart",
+      "status": "Available",
+      "price": "250 EGP, 310 EGP, 375 EGP"
+    },
+    {
+      "type": "new",
+      "title": "DYNASTY WARRIORS: ORIGINS Digital Deluxe Edition",
+      "status": "Available",
+      "price": "275 EGP, 350 EGP, 400 EGP"
+    },
+    {
+      "type": "new",
+      "title": "the outer worlds 2",
+      "status": "Available",
+      "price": "275 EGP, 350 EGP, 400 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Hades 2",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "new",
+      "title": "The First Berserker: Khazan Standard Edition",
+      "status": "Available",
+      "price": "260 EGP, 325 EGP, 390 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Stray",
+      "status": "Available",
+      "price": "225 EGP, 280 EGP, 340 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Returnal (Arabic)",
+      "status": "Available",
+      "price": "200 EGP, 250 EGP, 300 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Ratchet & Clank: Rift Apart (Arabic)",
+      "status": "Available",
+      "price": "200 EGP, 250 EGP, 300 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Madison",
+      "status": "Available",
+      "price": "225 EGP, 300 EGP, 345 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Lost Soul Aside",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Horizon Forbidden West (Arabic)",
+      "status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Dead Space",
+      "status": "Available",
+      "price": "275 EGP, 350 EGP, 425 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Avatar: Frontiers of Pandora",
+      "status": "Available",
+      "price": "275 EGP, 350 EGP, 425 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Alan Wake 2",
+      "status": "Available",
+      "price": "275 EGP, 350 EGP, 425 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Assassin's Creed Black Flag Resynced (Arabic)",
+      "status": "Currently rented",
+      "price": "450 EGP, 560 EGP, 625 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Resonance A Plague Tale Legacy",
+      "status": "Currently rented",
+      "price": "450 EGP, 560 EGP, 700 EGP"
+    },
+    {
+      "type": "new",
+      "title": "The Sinking City 2",
+      "status": "Currently rented",
+      "price": "450 EGP, 560 EGP, 700 EGP"
+    }
+  ],
+  "last_checked": "2026-09-05T00:05:56.603575+00:00"
 }
