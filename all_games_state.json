@@ -116,9 +116,9 @@
     },
     "astro bot": {
       "title": "Astro Bot",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "350 EGP, 430 EGP, 552 EGP",
-      "details": "AVAILABLE NOW GENERAL Astro Bot ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 430 EGP 30 days 552 EGP RENTAL PRICE 350 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED GENERAL Astro Bot ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 430 EGP 30 days 552 EGP RENTAL PRICE 350 EGP CURRENTLY RENTED BUY NOW"
     },
     "resident evil requiem": {
       "title": "Resident Evil Requiem",
@@ -818,7 +818,14 @@
       "title": "The Sinking City 2",
       "status": "Currently rented",
       "price": "450 EGP, 560 EGP, 700 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Astro Bot",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "350 EGP, 430 EGP, 552 EGP"
     }
   ],
-  "last_checked": "2026-09-05T00:05:56.603575+00:00"
+  "last_checked": "2026-09-05T01:12:51.839341+00:00"
 }
