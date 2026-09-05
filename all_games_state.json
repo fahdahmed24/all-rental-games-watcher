@@ -296,9 +296,9 @@
     },
     "little nightmares iii (arabic)": {
       "title": "Little Nightmares III (Arabic)",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "250 EGP, 310 EGP, 375 EGP",
-      "details": "AVAILABLE NOW ARABIC GENERAL Little Nightmares III (Arabic) ACCOUNT OPTION Primary PS5 Primary PS4 Secondary RENTAL PERIOD 14 days 250 EGP 21 days 310 EGP 30 days 375 EGP RENTAL PRICE 250 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED ARABIC GENERAL Little Nightmares III (Arabic) ACCOUNT OPTION Primary PS5 Primary PS4 Secondary RENTAL PERIOD 14 days 250 EGP 21 days 310 EGP 30 days 375 EGP RENTAL PRICE 250 EGP CURRENTLY RENTED BUY NOW"
     },
     "darwin's paradox!": {
       "title": "Darwin's Paradox!",
@@ -409,7 +409,15 @@
       "details": "AVAILABLE NOW GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-09-05T12:59:25.104548+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "Little Nightmares III (Arabic)",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "250 EGP, 310 EGP, 375 EGP"
+    }
+  ],
+  "last_checked": "2026-09-05T15:56:35.095598+00:00",
   "last_report": "2026-09-05T13:12:10.127900+00:00"
 }
