@@ -14,9 +14,9 @@
     },
     "silent hill f": {
       "title": "Silent Hill F",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "300 EGP, 375 EGP, 450 EGP",
-      "details": "AVAILABLE NOW GENERAL Silent Hill F ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED GENERAL Silent Hill F ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP CURRENTLY RENTED BUY NOW"
     },
     "pragmata (arabic)": {
       "title": "PRAGMATA (Arabic)",
@@ -416,8 +416,15 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "250 EGP, 310 EGP, 375 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Silent Hill F",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "300 EGP, 375 EGP, 450 EGP"
     }
   ],
-  "last_checked": "2026-09-05T20:13:21.749250+00:00",
+  "last_checked": "2026-09-05T22:04:52.102621+00:00",
   "last_report": "2026-09-05T13:12:10.127900+00:00"
 }
