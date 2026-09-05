@@ -9,13 +9,10 @@ from playwright.sync_api import sync_playwright
 
 
 PRODUCT_URL = os.environ.get("PRODUCT_URL", "").strip()
-
-# Use the default only if the secret is missing or empty.
 URL = PRODUCT_URL or "https://samuraistore.site/rental-games"
 
 if not URL.startswith(("http://", "https://")):
     raise ValueError(f"Invalid PRODUCT_URL: {URL!r}")
-
 
 STATE_FILE = "all_games_state.json"
 
@@ -36,7 +33,6 @@ def load_state():
             return json.load(file)
     except Exception as error:
         print(f"Could not load state file: {error}")
-
         return {
             "games": {},
             "pending_changes": [],
@@ -75,7 +71,7 @@ def clean_text(text):
 def detect_status(text):
     text = text.lower()
 
-    rented_values = [
+    rented_words = [
         "currently rented",
         "rented",
         "unavailable",
@@ -83,22 +79,20 @@ def detect_status(text):
         "out of stock",
     ]
 
-    available_values = [
+    available_words = [
         "available",
         "rent now",
         "add to cart",
         "borrow",
     ]
 
-    if any(value in text for value in rented_values):
+    if any(word in text for word in rented_words):
         return "Currently rented"
 
-    if any(value in text for value in available_values):
+    if any(word in text for word in available_words):
         return "Available"
 
-    words = text.replace("\n", " ").split()
-
-    if "rent" in words:
+    if "rent" in text.split():
         return "Available"
 
     return "Unknown"
@@ -114,119 +108,200 @@ def extract_price(text):
     return ", ".join(dict.fromkeys(prices))
 
 
+def valid_title(text):
+    if not text:
+        return False
+
+    text = clean_text(text)
+
+    if len(text) < 2 or len(text) > 150:
+        return False
+
+    ignored_words = [
+        "rented",
+        "available",
+        "rental",
+        "price",
+        "rent",
+        "buy now",
+        "add to cart",
+        "view product",
+        "read more",
+        "days",
+        "egp",
+        "login",
+        "register",
+        "shop",
+        "home",
+    ]
+
+    lower_text = text.lower()
+
+    if any(word in lower_text for word in ignored_words):
+        return False
+
+    return True
+
+
 def extract_games():
     with sync_playwright() as playwright:
-        browser = playwright.chromium.launch(headless=True)
-        page = browser.new_page()
+        browser = playwright.chromium.launch(
+            headless=True
+        )
+
+        page = browser.new_page(
+            viewport={
+                "width": 1920,
+                "height": 1080,
+            }
+        )
 
         try:
             print(f"Opening: {URL}")
 
             page.goto(
                 URL,
-                wait_until="networkidle",
+                wait_until="domcontentloaded",
                 timeout=60_000,
             )
 
-            page.wait_for_timeout(3_000)
+            page.wait_for_timeout(5_000)
 
-            selectors = [
-                "article",
-                "[class*='card']",
-                "[class*='game']",
-                "[class*='product']",
-                "li",
-            ]
+            # Scroll to load games that appear lazily.
+            previous_height = 0
 
-            cards = []
+            for _ in range(20):
+                current_height = page.evaluate(
+                    "document.body.scrollHeight"
+                )
 
-            for selector in selectors:
-                found = page.locator(selector)
-                count = found.count()
+                page.evaluate(
+                    "window.scrollTo(0, document.body.scrollHeight)"
+                )
 
-                if count >= 2:
-                    cards = [
-                        found.nth(index)
-                        for index in range(count)
-                    ]
+                page.wait_for_timeout(1_000)
+
+                if current_height == previous_height:
                     break
 
-            if not cards:
-                print("No game cards found.")
+                previous_height = current_height
+
+            # Specific selectors are intentionally before generic selectors.
+            selectors = [
+                "li.product",
+                "article.product",
+                ".product-grid-item",
+                ".product-card",
+                ".game-card",
+                "[data-product-id]",
+                "[data-product]",
+                "[class*='product-card']",
+                "[class*='game-card']",
+                "[class*='product-item']",
+                "li[class*='product']",
+                "article[class*='product']",
+            ]
+
+            best_selector = None
+            best_count = 0
+
+            for selector in selectors:
+                count = page.locator(selector).count()
+
+                if count > best_count:
+                    best_selector = selector
+                    best_count = count
+
+            if not best_selector or best_count == 0:
+                print("No product cards were found.")
+
+                with open(
+                    "debug_page.html",
+                    "w",
+                    encoding="utf-8",
+                ) as file:
+                    file.write(page.content())
+
                 return {}
 
+            print(
+                f"Using selector: {best_selector}"
+            )
+            print(
+                f"Product cards found: {best_count}"
+            )
+
+            cards = page.locator(best_selector)
             games = {}
 
-            for card in cards:
+            for index in range(best_count):
+                card = cards.nth(index)
+
                 try:
                     raw_text = card.inner_text()
-                    text = clean_text(raw_text)
                 except Exception:
                     continue
+
+                text = clean_text(raw_text)
 
                 if len(text) < 10:
                     continue
 
-                lower_text = text.lower()
-
-                if not any(
-                    word in lower_text
-                    for word in [
-                        "rented",
-                        "available",
-                        "rent",
-                        "egp",
-                        "days",
-                    ]
-                ):
-                    continue
-
-                lines = [
-                    clean_text(line)
-                    for line in raw_text.splitlines()
-                    if clean_text(line)
-                ]
-
-                if not lines:
-                    continue
-
                 title = None
 
-                ignored_words = [
-                    "rented",
-                    "available",
-                    "rental",
-                    "price",
-                    "account option",
-                    "primary",
-                    "secondary",
-                    "days",
-                    "egp",
-                    "rent",
-                    "buy now",
+                title_selectors = [
+                    "h1",
+                    "h2",
+                    "h3",
+                    "h4",
+                    ".product-title",
+                    ".game-title",
+                    "[class*='product-title']",
+                    "[class*='game-title']",
+                    "a",
                 ]
 
-                for line in lines:
-                    lower_line = line.lower()
+                for title_selector in title_selectors:
+                    title_elements = card.locator(title_selector)
+                    title_count = title_elements.count()
 
-                    if any(
-                        ignored_word in lower_line
-                        for ignored_word in ignored_words
-                    ):
-                        continue
+                    for title_index in range(title_count):
+                        try:
+                            candidate = clean_text(
+                                title_elements
+                                .nth(title_index)
+                                .inner_text()
+                            )
+                        except Exception:
+                            continue
 
-                    if len(line) >= 2:
-                        title = line
+                        if valid_title(candidate):
+                            title = candidate
+                            break
+
+                    if title:
                         break
+
+                if not title:
+                    lines = [
+                        clean_text(line)
+                        for line in raw_text.splitlines()
+                        if clean_text(line)
+                    ]
+
+                    for line in lines:
+                        if valid_title(line):
+                            title = line
+                            break
 
                 if not title:
                     continue
 
                 status = detect_status(text)
                 price = extract_price(text)
-                key = title.lower()
+                game_key = title.lower()
 
-                games[key] = {
+                games[game_key] = {
                     "title": title,
                     "status": status,
                     "price": price,
@@ -246,19 +321,19 @@ def check_games():
     old_games = state.get("games", {})
     pending_changes = state.get("pending_changes", [])
 
-    new_games = []
-    status_changes = []
-
     current_games = extract_games()
 
     if not current_games:
         print("No games extracted.")
-        print("Existing state was not changed.")
+        print("The old state was not changed.")
         return
 
-    for key, game in current_games.items():
-        if key not in old_games:
-            # The first successful run creates the baseline.
+    new_games = []
+    status_changes = []
+
+    for game_key, game in current_games.items():
+        if game_key not in old_games:
+            # The first run creates the baseline.
             # Existing games are not marked as new.
             if old_games:
                 new_games.append(game)
@@ -273,7 +348,11 @@ def check_games():
                 )
 
         else:
-            old_status = old_games[key].get("status")
+            old_status = old_games[game_key].get(
+                "status",
+                "Unknown",
+            )
+
             new_status = game["status"]
 
             if (
@@ -294,16 +373,18 @@ def check_games():
 
     state["games"] = current_games
     state["pending_changes"] = pending_changes
-    state["last_checked"] = datetime.now(timezone.utc).isoformat()
+    state["last_checked"] = datetime.now(
+        timezone.utc
+    ).isoformat()
 
     save_state(state)
 
     if new_games:
-        body = "New game added to the rental page:\n\n"
+        body = "🆕 NEW GAMES ADDED\n\n"
 
         for game in new_games:
             body += (
-                f"🆕 {game['title']}\n"
+                f"Game: {game['title']}\n"
                 f"Status: {game['status']}\n"
                 f"Price: {game['price'] or 'Not found'}\n\n"
             )
@@ -339,35 +420,53 @@ def send_daily_report():
         print("Daily report was not sent.")
         return
 
-    body = "Daily rental games report\n"
-    body += "=" * 30
+    body = "DAILY RENTAL GAMES REPORT\n"
+    body += "=" * 35
     body += "\n\n"
 
-    if pending_changes:
-        body += "CHANGES SINCE THE LAST REPORT\n"
-        body += "-" * 30
-        body += "\n\n"
+    new_games = [
+        change
+        for change in pending_changes
+        if change.get("type") == "new"
+    ]
 
-        for change in pending_changes:
-            if change["type"] == "new":
-                body += (
-                    f"🆕 NEW GAME: {change['title']}\n"
-                    f"Status: {change['status']}\n"
-                    f"Price: {change['price'] or 'Not found'}\n\n"
-                )
-            else:
-                body += (
-                    f"🔄 STATUS CHANGED: {change['title']}\n"
-                    f"{change['old_status']} → "
-                    f"{change['new_status']}\n"
-                    f"Price: {change['price'] or 'Not found'}\n\n"
-                )
-    else:
+    status_changes = [
+        change
+        for change in pending_changes
+        if change.get("type") == "status"
+    ]
+
+    if new_games:
+        body += "🆕 NEW GAMES\n"
+        body += "-" * 35
+        body += "\n"
+
+        for game in new_games:
+            body += (
+                f"{game['title']}\n"
+                f"Status: {game['status']}\n"
+                f"Price: {game['price'] or 'Not found'}\n\n"
+            )
+
+    if status_changes:
+        body += "🔄 CHANGED STATUS\n"
+        body += "-" * 35
+        body += "\n"
+
+        for change in status_changes:
+            body += (
+                f"{change['title']}\n"
+                f"{change['old_status']} → "
+                f"{change['new_status']}\n"
+                f"Price: {change['price'] or 'Not found'}\n\n"
+            )
+
+    if not pending_changes:
         body += "No changes since the last report.\n\n"
 
     body += "ALL GAMES\n"
-    body += "-" * 30
-    body += "\n\n"
+    body += "-" * 35
+    body += "\n"
 
     sorted_games = sorted(
         games.values(),
@@ -387,7 +486,9 @@ def send_daily_report():
     )
 
     state["pending_changes"] = []
-    state["last_report"] = datetime.now(timezone.utc).isoformat()
+    state["last_report"] = datetime.now(
+        timezone.utc
+    ).isoformat()
 
     save_state(state)
 
@@ -395,7 +496,10 @@ def send_daily_report():
 
 
 if __name__ == "__main__":
-    mode = os.environ.get("CHECK_MODE", "check").strip().lower()
+    mode = os.environ.get(
+        "CHECK_MODE",
+        "check",
+    ).strip().lower()
 
     if mode == "daily":
         send_daily_report()
