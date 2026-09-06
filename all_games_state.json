@@ -409,22 +409,7 @@
       "details": "AVAILABLE NOW GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Little Nightmares III (Arabic)",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "250 EGP, 310 EGP, 375 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Silent Hill F",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "300 EGP, 375 EGP, 450 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-09-06T10:55:31.596869+00:00",
-  "last_report": "2026-09-05T13:12:10.127900+00:00"
+  "last_report": "2026-09-06T13:21:15.457836+00:00"
 }
