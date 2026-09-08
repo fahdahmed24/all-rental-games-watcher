@@ -188,9 +188,9 @@
     },
     "dispatch": {
       "title": "Dispatch",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "300 EGP, 375 EGP, 425 EGP",
-      "details": "AVAILABLE NOW GENERAL Dispatch ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 425 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED GENERAL Dispatch ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 425 EGP RENTAL PRICE 300 EGP CURRENTLY RENTED BUY NOW"
     },
     "nioh 3": {
       "title": "Nioh 3",
@@ -409,7 +409,15 @@
       "details": "AVAILABLE NOW GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-09-08T20:12:29.651549+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "Dispatch",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "300 EGP, 375 EGP, 425 EGP"
+    }
+  ],
+  "last_checked": "2026-09-08T22:42:28.678384+00:00",
   "last_report": "2026-09-08T14:04:20.454821+00:00"
 }
