@@ -278,9 +278,9 @@
     },
     "gears of war: reloaded": {
       "title": "Gears of War: Reloaded",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "300 EGP, 375 EGP, 450 EGP",
-      "details": "CURRENTLY RENTED GENERAL Gears of War: Reloaded ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP CURRENTLY RENTED BUY NOW"
+      "details": "AVAILABLE NOW GENERAL Gears of War: Reloaded ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
     },
     "dragon ball: sparking zero": {
       "title": "Dragon Ball: Sparking Zero",
@@ -416,8 +416,15 @@
       "old_status": "Currently rented",
       "new_status": "Available",
       "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Gears of War: Reloaded",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP"
     }
   ],
-  "last_checked": "2026-09-08T09:15:06.139699+00:00",
+  "last_checked": "2026-09-08T13:41:13.210689+00:00",
   "last_report": "2026-09-07T15:27:21.800618+00:00"
 }
