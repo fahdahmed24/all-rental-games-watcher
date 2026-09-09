@@ -290,9 +290,9 @@
     },
     "ready or not": {
       "title": "Ready Or Not",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "325 EGP, 400 EGP, 475 EGP",
-      "details": "CURRENTLY RENTED GENERAL Ready Or Not ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 325 EGP 21 days 400 EGP 30 days 475 EGP RENTAL PRICE 325 EGP CURRENTLY RENTED BUY NOW"
+      "details": "AVAILABLE NOW GENERAL Ready Or Not ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 325 EGP 21 days 400 EGP 30 days 475 EGP RENTAL PRICE 325 EGP ADD TO CART BUY NOW"
     },
     "little nightmares iii (arabic)": {
       "title": "Little Nightmares III (Arabic)",
@@ -416,8 +416,15 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "300 EGP, 375 EGP, 425 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Ready Or Not",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "325 EGP, 400 EGP, 475 EGP"
     }
   ],
-  "last_checked": "2026-09-09T14:06:07.167685+00:00",
+  "last_checked": "2026-09-09T20:04:20.207653+00:00",
   "last_report": "2026-09-08T14:04:20.454821+00:00"
 }
