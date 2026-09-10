@@ -409,22 +409,7 @@
       "details": "AVAILABLE NOW GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Dispatch",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "300 EGP, 375 EGP, 425 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Ready Or Not",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "325 EGP, 400 EGP, 475 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-09-10T13:51:44.966259+00:00",
-  "last_report": "2026-09-08T14:04:20.454821+00:00"
+  "last_report": "2026-09-10T14:01:03.418458+00:00"
 }
