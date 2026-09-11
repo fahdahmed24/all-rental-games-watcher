@@ -122,9 +122,9 @@
     },
     "resident evil requiem": {
       "title": "Resident Evil Requiem",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "500 EGP, 600 EGP, 725 EGP",
-      "details": "AVAILABLE NOW GENERAL Resident Evil Requiem ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 500 EGP 21 days 600 EGP 30 days 725 EGP RENTAL PRICE 500 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED GENERAL Resident Evil Requiem ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 500 EGP 21 days 600 EGP 30 days 725 EGP RENTAL PRICE 500 EGP CURRENTLY RENTED BUY NOW"
     },
     "god of war raganarok (arabic)": {
       "title": "God Of War Raganarok (Arabic)",
@@ -392,9 +392,9 @@
     },
     "assassin's creed black flag resynced (arabic)": {
       "title": "Assassin's Creed Black Flag Resynced (Arabic)",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "450 EGP, 560 EGP, 625 EGP",
-      "details": "CURRENTLY RENTED ARABIC GENERAL Assassin's Creed Black Flag Resynced (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 625 EGP RENTAL PRICE 450 EGP CURRENTLY RENTED BUY NOW"
+      "details": "AVAILABLE NOW ARABIC GENERAL Assassin's Creed Black Flag Resynced (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 625 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
     },
     "resonance a plague tale legacy": {
       "title": "Resonance A Plague Tale Legacy",
@@ -409,7 +409,22 @@
       "details": "AVAILABLE NOW GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-09-11T17:10:25.257005+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "Resident Evil Requiem",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "500 EGP, 600 EGP, 725 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Assassin's Creed Black Flag Resynced (Arabic)",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "450 EGP, 560 EGP, 625 EGP"
+    }
+  ],
+  "last_checked": "2026-09-11T19:42:17.365585+00:00",
   "last_report": "2026-09-11T13:59:56.689952+00:00"
 }
