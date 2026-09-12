@@ -74,9 +74,9 @@
     },
     "hellblade 2 (arabic)": {
       "title": "Hellblade 2 (Arabic)",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "300 EGP, 375 EGP, 450 EGP",
-      "details": "CURRENTLY RENTED ARABIC GENERAL Hellblade 2 (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP CURRENTLY RENTED BUY NOW"
+      "details": "AVAILABLE NOW ARABIC GENERAL Hellblade 2 (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
     },
     "clair obscur: expedition 33": {
       "title": "Clair Obscur: Expedition 33",
@@ -416,8 +416,15 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "450 EGP, 550 EGP, 650 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Hellblade 2 (Arabic)",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP"
     }
   ],
-  "last_checked": "2026-09-12T15:42:49.270305+00:00",
+  "last_checked": "2026-09-12T19:44:52.369051+00:00",
   "last_report": "2026-09-12T13:18:55.656421+00:00"
 }
