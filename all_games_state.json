@@ -409,22 +409,7 @@
       "details": "AVAILABLE NOW GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Resident Evil Requiem",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "500 EGP, 600 EGP, 725 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Assassin's Creed Black Flag Resynced (Arabic)",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "450 EGP, 560 EGP, 625 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-09-12T12:24:51.352181+00:00",
-  "last_report": "2026-09-11T13:59:56.689952+00:00"
+  "last_report": "2026-09-12T13:18:55.656421+00:00"
 }
