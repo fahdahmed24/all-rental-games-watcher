@@ -248,9 +248,9 @@
     },
     "lego® batman™: legacy of the dark knight (arabic)": {
       "title": "LEGO® Batman™: Legacy of the Dark Knight (Arabic)",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "450 EGP, 550 EGP, 650 EGP",
-      "details": "AVAILABLE NOW ARABIC GENERAL LEGO® Batman™: Legacy of the Dark Knight (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED ARABIC GENERAL LEGO® Batman™: Legacy of the Dark Knight (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP CURRENTLY RENTED BUY NOW"
     },
     "mouse: p.i. for hire": {
       "title": "MOUSE: P.I. For Hire",
@@ -409,7 +409,15 @@
       "details": "AVAILABLE NOW GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-09-12T12:24:51.352181+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "LEGO® Batman™: Legacy of the Dark Knight (Arabic)",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "450 EGP, 550 EGP, 650 EGP"
+    }
+  ],
+  "last_checked": "2026-09-12T15:42:49.270305+00:00",
   "last_report": "2026-09-12T13:18:55.656421+00:00"
 }
