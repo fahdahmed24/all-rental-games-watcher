@@ -409,22 +409,7 @@
       "details": "AVAILABLE NOW GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "LEGO® Batman™: Legacy of the Dark Knight (Arabic)",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "450 EGP, 550 EGP, 650 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Hellblade 2 (Arabic)",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "300 EGP, 375 EGP, 450 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-09-13T12:05:41.743349+00:00",
-  "last_report": "2026-09-12T13:18:55.656421+00:00"
+  "last_report": "2026-09-13T14:01:53.158654+00:00"
 }
