@@ -404,9 +404,9 @@
     },
     "the sinking city 2": {
       "title": "The Sinking City 2",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "450 EGP, 560 EGP, 700 EGP",
-      "details": "UNAVAILABLE GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP UNAVAILABLE BUY NOW"
+      "details": "AVAILABLE NOW GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
     }
   },
   "pending_changes": [
@@ -423,8 +423,15 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "450 EGP, 560 EGP, 700 EGP"
+    },
+    {
+      "type": "status",
+      "title": "The Sinking City 2",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "450 EGP, 560 EGP, 700 EGP"
     }
   ],
-  "last_checked": "2026-09-13T23:10:39.880110+00:00",
+  "last_checked": "2026-09-14T01:04:19.383416+00:00",
   "last_report": "2026-09-13T14:01:53.158654+00:00"
 }
