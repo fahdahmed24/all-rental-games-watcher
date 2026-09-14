@@ -409,36 +409,7 @@
       "details": "AVAILABLE NOW GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "PRAGMATA (Arabic)",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "450 EGP, 560 EGP, 625 EGP"
-    },
-    {
-      "type": "status",
-      "title": "The Sinking City 2",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "450 EGP, 560 EGP, 700 EGP"
-    },
-    {
-      "type": "status",
-      "title": "The Sinking City 2",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "450 EGP, 560 EGP, 700 EGP"
-    },
-    {
-      "type": "status",
-      "title": "SAROS (Arabic)",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "450 EGP, 550 EGP, 650 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-09-14T12:46:17.178825+00:00",
-  "last_report": "2026-09-13T14:01:53.158654+00:00"
+  "last_report": "2026-09-14T16:07:21.291450+00:00"
 }
