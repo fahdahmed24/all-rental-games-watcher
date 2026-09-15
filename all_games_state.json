@@ -409,22 +409,7 @@
       "details": "AVAILABLE NOW GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Black Myth Wukong",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "275 EGP, 345 EGP, 420 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Split Fiction",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "300 EGP, 375 EGP, 450 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-09-15T14:29:00.226194+00:00",
-  "last_report": "2026-09-14T16:07:21.291450+00:00"
+  "last_report": "2026-09-15T14:36:40.761713+00:00"
 }
