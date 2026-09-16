@@ -2,9 +2,9 @@
   "games": {
     "ninja gaiden 4": {
       "title": "Ninja Gaiden 4",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "320 EGP, 400 EGP, 480 EGP",
-      "details": "AVAILABLE NOW GENERAL Ninja Gaiden 4 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 320 EGP 21 days 400 EGP 30 days 480 EGP RENTAL PRICE 320 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED GENERAL Ninja Gaiden 4 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 320 EGP 21 days 400 EGP 30 days 480 EGP RENTAL PRICE 320 EGP CURRENTLY RENTED BUY NOW"
     },
     "mafia: the old country": {
       "title": "Mafia: The Old Country",
@@ -416,8 +416,15 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "450 EGP, 560 EGP, 700 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Ninja Gaiden 4",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "320 EGP, 400 EGP, 480 EGP"
     }
   ],
-  "last_checked": "2026-09-16T17:02:52.532718+00:00",
+  "last_checked": "2026-09-16T20:02:42.133966+00:00",
   "last_report": "2026-09-16T14:32:03.443173+00:00"
 }
