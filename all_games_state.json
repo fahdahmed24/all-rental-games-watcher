@@ -409,22 +409,7 @@
       "details": "CURRENTLY RENTED GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP CURRENTLY RENTED BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Indiana Jones and the Great Circle (Arabic)",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "350 EGP, 440 EGP, 552 EGP"
-    },
-    {
-      "type": "status",
-      "title": "God Of War Raganarok (Arabic)",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "225 EGP, 300 EGP, 375 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-09-18T13:49:25.018175+00:00",
-  "last_report": "2026-09-17T14:35:55.593128+00:00"
+  "last_report": "2026-09-18T14:02:26.664951+00:00"
 }
