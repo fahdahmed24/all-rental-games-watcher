@@ -224,9 +224,9 @@
     },
     "007 first light": {
       "title": "007 First Light",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "475 EGP, 600 EGP, 725 EGP",
-      "details": "CURRENTLY RENTED GENERAL 007 First Light ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 475 EGP 21 days 600 EGP 30 days 725 EGP RENTAL PRICE 475 EGP CURRENTLY RENTED BUY NOW"
+      "details": "AVAILABLE NOW GENERAL 007 First Light ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 475 EGP 21 days 600 EGP 30 days 725 EGP RENTAL PRICE 475 EGP ADD TO CART BUY NOW"
     },
     "baldur's gate 3": {
       "title": "Baldur's Gate 3",
@@ -409,7 +409,15 @@
       "details": "CURRENTLY RENTED GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP CURRENTLY RENTED BUY NOW"
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-09-18T19:44:39.503138+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "007 First Light",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "475 EGP, 600 EGP, 725 EGP"
+    }
+  ],
+  "last_checked": "2026-09-18T21:54:41.677321+00:00",
   "last_report": "2026-09-18T14:02:26.664951+00:00"
 }
