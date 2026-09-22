@@ -38,9 +38,9 @@
     },
     "death stranding 2: on the beach (arabic)": {
       "title": "DEATH STRANDING 2: ON THE BEACH (Arabic)",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "350 EGP, 430 EGP, 500 EGP",
-      "details": "CURRENTLY RENTED ARABIC GENERAL DEATH STRANDING 2: ON THE BEACH (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 430 EGP 30 days 500 EGP RENTAL PRICE 350 EGP CURRENTLY RENTED BUY NOW"
+      "details": "AVAILABLE NOW ARABIC GENERAL DEATH STRANDING 2: ON THE BEACH (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 430 EGP 30 days 500 EGP RENTAL PRICE 350 EGP ADD TO CART BUY NOW"
     },
     "spiderman 2 (arabic)": {
       "title": "Spiderman 2 (Arabic)",
@@ -409,7 +409,15 @@
       "details": "CURRENTLY RENTED GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP CURRENTLY RENTED BUY NOW"
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-09-22T15:03:17.088542+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "DEATH STRANDING 2: ON THE BEACH (Arabic)",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "350 EGP, 430 EGP, 500 EGP"
+    }
+  ],
+  "last_checked": "2026-09-22T18:48:38.163979+00:00",
   "last_report": "2026-09-22T14:18:24.579663+00:00"
 }
