@@ -116,9 +116,9 @@
     },
     "astro bot": {
       "title": "Astro Bot",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "350 EGP, 430 EGP, 552 EGP",
-      "details": "AVAILABLE NOW GENERAL Astro Bot ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 430 EGP 30 days 552 EGP RENTAL PRICE 350 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED GENERAL Astro Bot ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 430 EGP 30 days 552 EGP RENTAL PRICE 350 EGP CURRENTLY RENTED BUY NOW"
     },
     "resident evil requiem": {
       "title": "Resident Evil Requiem",
@@ -206,9 +206,9 @@
     },
     "reanimal": {
       "title": "REANIMAL",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "325 EGP, 405 EGP, 485 EGP",
-      "details": "AVAILABLE NOW GENERAL REANIMAL ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 325 EGP 21 days 405 EGP 30 days 485 EGP RENTAL PRICE 325 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED GENERAL REANIMAL ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 325 EGP 21 days 405 EGP 30 days 485 EGP RENTAL PRICE 325 EGP CURRENTLY RENTED BUY NOW"
     },
     "silent hill 2": {
       "title": "Silent Hill 2",
@@ -409,7 +409,22 @@
       "details": "CURRENTLY RENTED GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP CURRENTLY RENTED BUY NOW"
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-09-24T12:10:42.078072+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "Astro Bot",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "350 EGP, 430 EGP, 552 EGP"
+    },
+    {
+      "type": "status",
+      "title": "REANIMAL",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "325 EGP, 405 EGP, 485 EGP"
+    }
+  ],
+  "last_checked": "2026-09-24T17:10:58.286507+00:00",
   "last_report": "2026-09-24T14:35:18.524166+00:00"
 }
