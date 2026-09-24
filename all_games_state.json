@@ -409,29 +409,7 @@
       "details": "CURRENTLY RENTED GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP CURRENTLY RENTED BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Spiderman 2 (Arabic)",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "350 EGP, 440 EGP, 525 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Cyberpunk 2077: Ultimate Edition (Arabic)",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "275 EGP, 350 EGP, 415 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Resonance A Plague Tale Legacy",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "450 EGP, 560 EGP, 700 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-09-24T12:10:42.078072+00:00",
-  "last_report": "2026-09-23T14:37:00.146783+00:00"
+  "last_report": "2026-09-24T14:35:18.524166+00:00"
 }
