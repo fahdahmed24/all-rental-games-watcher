@@ -409,15 +409,7 @@
       "details": "CURRENTLY RENTED GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP CURRENTLY RENTED BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Resident Evil Requiem",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "500 EGP, 600 EGP, 725 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-09-26T12:10:49.318126+00:00",
-  "last_report": "2026-09-25T14:56:07.863994+00:00"
+  "last_report": "2026-09-26T14:01:01.796940+00:00"
 }
