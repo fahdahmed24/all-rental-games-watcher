@@ -8,9 +8,9 @@
     },
     "mafia: the old country": {
       "title": "Mafia: The Old Country",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "315 EGP, 395 EGP, 475 EGP",
-      "details": "CURRENTLY RENTED GENERAL Mafia: The Old Country ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 315 EGP 21 days 395 EGP 30 days 475 EGP RENTAL PRICE 315 EGP CURRENTLY RENTED BUY NOW"
+      "details": "AVAILABLE NOW GENERAL Mafia: The Old Country ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 315 EGP 21 days 395 EGP 30 days 475 EGP RENTAL PRICE 315 EGP ADD TO CART BUY NOW"
     },
     "silent hill f": {
       "title": "Silent Hill F",
@@ -423,8 +423,15 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "315 EGP, 395 EGP, 475 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Mafia: The Old Country",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "315 EGP, 395 EGP, 475 EGP"
     }
   ],
-  "last_checked": "2026-09-26T22:00:49.288416+00:00",
+  "last_checked": "2026-09-27T00:27:18.587110+00:00",
   "last_report": "2026-09-26T14:01:01.796940+00:00"
 }
