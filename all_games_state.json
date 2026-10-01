@@ -407,6 +407,12 @@
       "status": "Available",
       "price": "450 EGP, 560 EGP, 700 EGP",
       "details": "AVAILABLE NOW GENERAL The Sinking City 2 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP ADD TO CART BUY NOW"
+    },
+    "marvel’s wolverine (arabic)": {
+      "title": "Marvel’s Wolverine (Arabic)",
+      "status": "Available",
+      "price": "550 EGP, 690 EGP, 865 EGP",
+      "details": "AVAILABLE NOW ARABIC GENERAL Marvel’s Wolverine (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 550 EGP 21 days 690 EGP 30 days 865 EGP RENTAL PRICE 550 EGP ADD TO CART BUY NOW"
     }
   },
   "pending_changes": [
@@ -423,8 +429,14 @@
       "old_status": "Currently rented",
       "new_status": "Available",
       "price": "320 EGP, 400 EGP, 480 EGP"
+    },
+    {
+      "type": "new",
+      "title": "Marvel’s Wolverine (Arabic)",
+      "status": "Available",
+      "price": "550 EGP, 690 EGP, 865 EGP"
     }
   ],
-  "last_checked": "2026-10-01T07:14:54.330663+00:00",
+  "last_checked": "2026-10-01T14:33:06.761548+00:00",
   "last_report": "2026-09-30T16:13:28.388613+00:00"
 }
