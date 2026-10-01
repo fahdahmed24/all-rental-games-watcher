@@ -415,28 +415,7 @@
       "details": "AVAILABLE NOW ARABIC GENERAL Marvel’s Wolverine (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 550 EGP 21 days 690 EGP 30 days 865 EGP RENTAL PRICE 550 EGP ADD TO CART BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Silent Hill F",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "300 EGP, 375 EGP, 450 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Ninja Gaiden 4",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "320 EGP, 400 EGP, 480 EGP"
-    },
-    {
-      "type": "new",
-      "title": "Marvel’s Wolverine (Arabic)",
-      "status": "Available",
-      "price": "550 EGP, 690 EGP, 865 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-10-01T14:33:06.761548+00:00",
-  "last_report": "2026-09-30T16:13:28.388613+00:00"
+  "last_report": "2026-10-01T16:51:37.208984+00:00"
 }
