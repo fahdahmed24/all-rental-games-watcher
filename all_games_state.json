@@ -416,9 +416,9 @@
     },
     "onimusha: way of the sword (arabic)": {
       "title": "Onimusha: Way of the Sword (Arabic)",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "475 EGP, 595 EGP, 745 EGP",
-      "details": "AVAILABLE NOW ARABIC GENERAL Onimusha: Way of the Sword (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 475 EGP 21 days 595 EGP 30 days 745 EGP RENTAL PRICE 475 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED ARABIC GENERAL Onimusha: Way of the Sword (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 475 EGP 21 days 595 EGP 30 days 745 EGP RENTAL PRICE 475 EGP CURRENTLY RENTED BUY NOW"
     },
     "control resonant": {
       "title": "CONTROL Resonant",
@@ -439,7 +439,15 @@
       "details": "AVAILABLE NOW GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP ADD TO CART BUY NOW"
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-10-03T13:32:16.353860+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "Onimusha: Way of the Sword (Arabic)",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "475 EGP, 595 EGP, 745 EGP"
+    }
+  ],
+  "last_checked": "2026-10-03T17:34:27.748955+00:00",
   "last_report": "2026-10-03T14:30:43.484345+00:00"
 }
