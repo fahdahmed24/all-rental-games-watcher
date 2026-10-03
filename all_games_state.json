@@ -98,9 +98,9 @@
     },
     "ghost of yotei": {
       "title": "Ghost Of Yotei",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "400 EGP, 500 EGP, 600 EGP",
-      "details": "AVAILABLE NOW GENERAL Ghost Of Yotei ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED GENERAL Ghost Of Yotei ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP CURRENTLY RENTED BUY NOW"
     },
     "elden ring": {
       "title": "Elden Ring",
@@ -446,8 +446,15 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "475 EGP, 595 EGP, 745 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Ghost Of Yotei",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "400 EGP, 500 EGP, 600 EGP"
     }
   ],
-  "last_checked": "2026-10-03T20:11:45.833451+00:00",
+  "last_checked": "2026-10-03T23:04:28.160575+00:00",
   "last_report": "2026-10-03T14:30:43.484345+00:00"
 }
