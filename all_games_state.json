@@ -439,29 +439,7 @@
       "details": "AVAILABLE NOW GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP ADD TO CART BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Onimusha: Way of the Sword (Arabic)",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "475 EGP, 595 EGP, 745 EGP"
-    },
-    {
-      "type": "status",
-      "title": "SAROS (Arabic)",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "450 EGP, 550 EGP, 650 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Madison",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "225 EGP, 300 EGP, 345 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-10-05T12:38:42.348115+00:00",
-  "last_report": "2026-10-04T15:06:13.533443+00:00"
+  "last_report": "2026-10-05T19:01:16.039187+00:00"
 }
