@@ -434,12 +434,20 @@
     },
     "silent hill townfall": {
       "title": "SILENT HILL Townfall",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "400 EGP, 500 EGP, 600 EGP",
-      "details": "AVAILABLE NOW GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP CURRENTLY RENTED BUY NOW"
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-10-05T12:38:42.348115+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "SILENT HILL Townfall",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "400 EGP, 500 EGP, 600 EGP"
+    }
+  ],
+  "last_checked": "2026-10-05T20:57:01.345486+00:00",
   "last_report": "2026-10-05T19:01:16.039187+00:00"
 }
