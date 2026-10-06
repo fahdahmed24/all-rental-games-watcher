@@ -439,15 +439,7 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP CURRENTLY RENTED BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "SILENT HILL Townfall",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "400 EGP, 500 EGP, 600 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-10-06T15:04:53.201284+00:00",
-  "last_report": "2026-10-05T19:01:16.039187+00:00"
+  "last_report": "2026-10-06T16:27:13.557192+00:00"
 }
