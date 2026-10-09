@@ -439,22 +439,7 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP CURRENTLY RENTED BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Astro Bot",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "350 EGP, 430 EGP, 552 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Indiana Jones and the Great Circle (Arabic)",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "350 EGP, 440 EGP, 552 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-10-09T13:47:39.776760+00:00",
-  "last_report": "2026-10-08T17:08:01.353383+00:00"
+  "last_report": "2026-10-09T16:46:04.894588+00:00"
 }
