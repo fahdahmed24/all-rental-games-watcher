@@ -110,9 +110,9 @@
     },
     "indiana jones and the great circle (arabic)": {
       "title": "Indiana Jones and the Great Circle (Arabic)",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "350 EGP, 440 EGP, 552 EGP",
-      "details": "AVAILABLE NOW ARABIC GENERAL Indiana Jones and the Great Circle (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 440 EGP 30 days 552 EGP RENTAL PRICE 350 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED ARABIC GENERAL Indiana Jones and the Great Circle (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 440 EGP 30 days 552 EGP RENTAL PRICE 350 EGP CURRENTLY RENTED BUY NOW"
     },
     "astro bot": {
       "title": "Astro Bot",
@@ -446,8 +446,15 @@
       "old_status": "Currently rented",
       "new_status": "Available",
       "price": "350 EGP, 430 EGP, 552 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Indiana Jones and the Great Circle (Arabic)",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "350 EGP, 440 EGP, 552 EGP"
     }
   ],
-  "last_checked": "2026-10-08T20:27:22.194962+00:00",
+  "last_checked": "2026-10-09T06:39:57.054798+00:00",
   "last_report": "2026-10-08T17:08:01.353383+00:00"
 }
