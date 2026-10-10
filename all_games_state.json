@@ -439,22 +439,7 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP CURRENTLY RENTED BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Lies of P: Overture Bundle",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "250 EGP, 325 EGP, 375 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Cronos New Dawn",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "300 EGP, 375 EGP, 450 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-10-10T14:46:16.228675+00:00",
-  "last_report": "2026-10-09T16:46:04.894588+00:00"
+  "last_report": "2026-10-10T15:40:07.983740+00:00"
 }
