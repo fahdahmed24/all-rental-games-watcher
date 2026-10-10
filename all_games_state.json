@@ -176,9 +176,9 @@
     },
     "lies of p: overture bundle": {
       "title": "Lies of P: Overture Bundle",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "250 EGP, 325 EGP, 375 EGP",
-      "details": "AVAILABLE NOW GENERAL Lies of P: Overture Bundle ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 250 EGP 21 days 325 EGP 30 days 375 EGP RENTAL PRICE 250 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED GENERAL Lies of P: Overture Bundle ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 250 EGP 21 days 325 EGP 30 days 375 EGP RENTAL PRICE 250 EGP CURRENTLY RENTED BUY NOW"
     },
     "kingdom come: deliverance ii": {
       "title": "Kingdom Come: Deliverance II",
@@ -439,7 +439,15 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP CURRENTLY RENTED BUY NOW"
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-10-10T02:21:19.932538+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "Lies of P: Overture Bundle",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "250 EGP, 325 EGP, 375 EGP"
+    }
+  ],
+  "last_checked": "2026-10-10T08:41:33.869058+00:00",
   "last_report": "2026-10-09T16:46:04.894588+00:00"
 }
