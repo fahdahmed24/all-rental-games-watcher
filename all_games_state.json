@@ -134,9 +134,9 @@
     },
     "cronos new dawn": {
       "title": "Cronos New Dawn",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "300 EGP, 375 EGP, 450 EGP",
-      "details": "AVAILABLE NOW GENERAL Cronos New Dawn ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP ADD TO CART BUY NOW"
+      "details": "CURRENTLY RENTED GENERAL Cronos New Dawn ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP CURRENTLY RENTED BUY NOW"
     },
     "borderlands 4": {
       "title": "Borderlands 4",
@@ -446,8 +446,15 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "250 EGP, 325 EGP, 375 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Cronos New Dawn",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "300 EGP, 375 EGP, 450 EGP"
     }
   ],
-  "last_checked": "2026-10-10T08:41:33.869058+00:00",
+  "last_checked": "2026-10-10T14:46:16.228675+00:00",
   "last_report": "2026-10-09T16:46:04.894588+00:00"
 }
