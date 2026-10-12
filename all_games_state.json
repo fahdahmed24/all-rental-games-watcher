@@ -439,15 +439,7 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP CURRENTLY RENTED BUY NOW"
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "METAL GEAR SOLID Δ: SNAKE EATER Digital",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "310 EGP, 390 EGP, 460 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-10-12T17:45:37.215849+00:00",
-  "last_report": "2026-10-11T16:06:27.957670+00:00"
+  "last_report": "2026-10-12T19:34:21.504464+00:00"
 }
