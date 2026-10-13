@@ -439,22 +439,7 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Cyberpunk 2077: Ultimate Edition (Arabic)",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "275 EGP, 350 EGP, 415 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Resonance A Plague Tale Legacy",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "450 EGP, 560 EGP, 700 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-10-13T03:58:15.603473+00:00",
-  "last_report": "2026-10-12T19:34:21.504464+00:00"
+  "last_report": "2026-10-13T17:18:33.362950+00:00"
 }
