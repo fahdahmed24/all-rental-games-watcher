@@ -32,9 +32,9 @@
     },
     "a quiet place": {
       "title": "A Quiet Place",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "250 EGP, 310 EGP, 360 EGP",
-      "details": "AVAILABLE NOW GENERAL A Quiet Place ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 250 EGP 21 days 310 EGP 30 days 360 EGP RENTAL PRICE 250 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "CURRENTLY RENTED GENERAL A Quiet Place ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 250 EGP 21 days 310 EGP 30 days 360 EGP RENTAL PRICE 250 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "death stranding 2: on the beach (arabic)": {
       "title": "DEATH STRANDING 2: ON THE BEACH (Arabic)",
@@ -439,7 +439,15 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-10-13T03:58:15.603473+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "A Quiet Place",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "250 EGP, 310 EGP, 360 EGP"
+    }
+  ],
+  "last_checked": "2026-10-13T18:30:01.660844+00:00",
   "last_report": "2026-10-13T17:18:33.362950+00:00"
 }
