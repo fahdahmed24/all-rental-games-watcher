@@ -332,9 +332,9 @@
     },
     "the first berserker: khazan standard edition": {
       "title": "The First Berserker: Khazan Standard Edition",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "260 EGP, 325 EGP, 390 EGP",
-      "details": "AVAILABLE NOW GENERAL The First Berserker: Khazan Standard Edition ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 260 EGP 21 days 325 EGP 30 days 390 EGP RENTAL PRICE 260 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "CURRENTLY RENTED GENERAL The First Berserker: Khazan Standard Edition ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 260 EGP 21 days 325 EGP 30 days 390 EGP RENTAL PRICE 260 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "stray": {
       "title": "Stray",
@@ -439,7 +439,15 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-10-14T12:29:58.376142+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "The First Berserker: Khazan Standard Edition",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "260 EGP, 325 EGP, 390 EGP"
+    }
+  ],
+  "last_checked": "2026-10-14T17:32:39.637986+00:00",
   "last_report": "2026-10-14T14:50:31.853886+00:00"
 }
