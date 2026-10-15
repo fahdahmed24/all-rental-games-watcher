@@ -38,9 +38,9 @@
     },
     "death stranding 2: on the beach (arabic)": {
       "title": "DEATH STRANDING 2: ON THE BEACH (Arabic)",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "350 EGP, 430 EGP, 500 EGP",
-      "details": "CURRENTLY RENTED ARABIC GENERAL DEATH STRANDING 2: ON THE BEACH (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 430 EGP 30 days 500 EGP RENTAL PRICE 350 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW ARABIC GENERAL DEATH STRANDING 2: ON THE BEACH (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 430 EGP 30 days 500 EGP RENTAL PRICE 350 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "spiderman 2 (arabic)": {
       "title": "Spiderman 2 (Arabic)",
@@ -248,9 +248,9 @@
     },
     "lego® batman™: legacy of the dark knight (arabic)": {
       "title": "LEGO® Batman™: Legacy of the Dark Knight (Arabic)",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "450 EGP, 550 EGP, 650 EGP",
-      "details": "AVAILABLE NOW ARABIC GENERAL LEGO® Batman™: Legacy of the Dark Knight (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "CURRENTLY RENTED ARABIC GENERAL LEGO® Batman™: Legacy of the Dark Knight (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "mouse: p.i. for hire": {
       "title": "MOUSE: P.I. For Hire",
@@ -392,9 +392,9 @@
     },
     "assassin's creed black flag resynced (arabic)": {
       "title": "Assassin's Creed Black Flag Resynced (Arabic)",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "450 EGP, 560 EGP, 625 EGP",
-      "details": "CURRENTLY RENTED ARABIC GENERAL Assassin's Creed Black Flag Resynced (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 625 EGP RENTAL PRICE 450 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW ARABIC GENERAL Assassin's Creed Black Flag Resynced (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 625 EGP RENTAL PRICE 450 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "resonance a plague tale legacy": {
       "title": "Resonance A Plague Tale Legacy",
@@ -439,7 +439,29 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-10-15T12:11:19.043195+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "DEATH STRANDING 2: ON THE BEACH (Arabic)",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "350 EGP, 430 EGP, 500 EGP"
+    },
+    {
+      "type": "status",
+      "title": "LEGO® Batman™: Legacy of the Dark Knight (Arabic)",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "450 EGP, 550 EGP, 650 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Assassin's Creed Black Flag Resynced (Arabic)",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "450 EGP, 560 EGP, 625 EGP"
+    }
+  ],
+  "last_checked": "2026-10-15T17:01:34.339604+00:00",
   "last_report": "2026-10-15T14:37:23.971789+00:00"
 }
