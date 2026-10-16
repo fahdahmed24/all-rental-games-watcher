@@ -116,9 +116,9 @@
     },
     "astro bot": {
       "title": "Astro Bot",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "350 EGP, 430 EGP, 552 EGP",
-      "details": "AVAILABLE NOW GENERAL Astro Bot ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 430 EGP 30 days 552 EGP RENTAL PRICE 350 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "CURRENTLY RENTED GENERAL Astro Bot ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 430 EGP 30 days 552 EGP RENTAL PRICE 350 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "resident evil requiem": {
       "title": "Resident Evil Requiem",
@@ -140,9 +140,9 @@
     },
     "borderlands 4": {
       "title": "Borderlands 4",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "300 EGP, 375 EGP, 450 EGP",
-      "details": "AVAILABLE NOW GENERAL Borderlands 4 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "UNAVAILABLE GENERAL Borderlands 4 ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "general": {
       "title": "GENERAL",
@@ -224,9 +224,9 @@
     },
     "007 first light": {
       "title": "007 First Light",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "475 EGP, 600 EGP, 725 EGP",
-      "details": "AVAILABLE NOW GENERAL 007 First Light ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 475 EGP 21 days 600 EGP 30 days 725 EGP RENTAL PRICE 475 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "CURRENTLY RENTED GENERAL 007 First Light ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 475 EGP 21 days 600 EGP 30 days 725 EGP RENTAL PRICE 475 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "baldur's gate 3": {
       "title": "Baldur's Gate 3",
@@ -422,9 +422,9 @@
     },
     "control resonant": {
       "title": "CONTROL Resonant",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "450 EGP, 550 EGP, 650 EGP",
-      "details": "CURRENTLY RENTED GENERAL CONTROL Resonant ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW GENERAL CONTROL Resonant ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "the blood of dawnwalker": {
       "title": "The Blood of Dawnwalker",
@@ -439,7 +439,36 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-10-15T20:17:17.459346+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "Astro Bot",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "350 EGP, 430 EGP, 552 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Borderlands 4",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "status",
+      "title": "007 First Light",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "475 EGP, 600 EGP, 725 EGP"
+    },
+    {
+      "type": "status",
+      "title": "CONTROL Resonant",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "450 EGP, 550 EGP, 650 EGP"
+    }
+  ],
+  "last_checked": "2026-10-16T15:11:56.698417+00:00",
   "last_report": "2026-10-16T14:28:31.775671+00:00"
 }
