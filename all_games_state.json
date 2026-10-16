@@ -439,29 +439,7 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "DEATH STRANDING 2: ON THE BEACH (Arabic)",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "350 EGP, 430 EGP, 500 EGP"
-    },
-    {
-      "type": "status",
-      "title": "LEGO® Batman™: Legacy of the Dark Knight (Arabic)",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "450 EGP, 550 EGP, 650 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Assassin's Creed Black Flag Resynced (Arabic)",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "450 EGP, 560 EGP, 625 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-10-15T20:17:17.459346+00:00",
-  "last_report": "2026-10-15T14:37:23.971789+00:00"
+  "last_report": "2026-10-16T14:28:31.775671+00:00"
 }
