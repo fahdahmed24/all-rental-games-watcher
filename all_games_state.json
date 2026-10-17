@@ -439,43 +439,7 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Astro Bot",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "350 EGP, 430 EGP, 552 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Borderlands 4",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "300 EGP, 375 EGP, 450 EGP"
-    },
-    {
-      "type": "status",
-      "title": "007 First Light",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "475 EGP, 600 EGP, 725 EGP"
-    },
-    {
-      "type": "status",
-      "title": "CONTROL Resonant",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "450 EGP, 550 EGP, 650 EGP"
-    },
-    {
-      "type": "status",
-      "title": "SAROS (Arabic)",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "450 EGP, 550 EGP, 650 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-10-17T12:17:19.808854+00:00",
-  "last_report": "2026-10-16T14:28:31.775671+00:00"
+  "last_report": "2026-10-17T13:25:11.247311+00:00"
 }
