@@ -218,9 +218,9 @@
     },
     "crimson desert": {
       "title": "Crimson Desert",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "450 EGP, 550 EGP, 650 EGP",
-      "details": "CURRENTLY RENTED GENERAL Crimson Desert ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW GENERAL Crimson Desert ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "007 first light": {
       "title": "007 First Light",
@@ -439,7 +439,15 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-10-20T06:40:45.467302+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "Crimson Desert",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "450 EGP, 550 EGP, 650 EGP"
+    }
+  ],
+  "last_checked": "2026-10-20T12:14:22.134195+00:00",
   "last_report": "2026-10-19T16:45:20.928580+00:00"
 }
