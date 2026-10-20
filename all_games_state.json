@@ -439,15 +439,7 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Crimson Desert",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "450 EGP, 550 EGP, 650 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-10-20T12:14:22.134195+00:00",
-  "last_report": "2026-10-19T16:45:20.928580+00:00"
+  "last_report": "2026-10-20T14:37:37.370866+00:00"
 }
