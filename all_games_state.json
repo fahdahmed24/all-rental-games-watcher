@@ -439,22 +439,7 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "The Blood of Dawnwalker",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "450 EGP, 550 EGP, 650 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Indiana Jones and the Great Circle (Arabic)",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "350 EGP, 440 EGP, 552 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-10-23T14:24:35.015123+00:00",
-  "last_report": "2026-10-22T14:49:35.004041+00:00"
+  "last_report": "2026-10-23T14:35:39.410309+00:00"
 }
