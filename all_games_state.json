@@ -110,9 +110,9 @@
     },
     "indiana jones and the great circle (arabic)": {
       "title": "Indiana Jones and the Great Circle (Arabic)",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "350 EGP, 440 EGP, 552 EGP",
-      "details": "CURRENTLY RENTED ARABIC GENERAL Indiana Jones and the Great Circle (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 440 EGP 30 days 552 EGP RENTAL PRICE 350 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW ARABIC GENERAL Indiana Jones and the Great Circle (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 440 EGP 30 days 552 EGP RENTAL PRICE 350 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "astro bot": {
       "title": "Astro Bot",
@@ -446,8 +446,15 @@
       "old_status": "Currently rented",
       "new_status": "Available",
       "price": "450 EGP, 550 EGP, 650 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Indiana Jones and the Great Circle (Arabic)",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "350 EGP, 440 EGP, 552 EGP"
     }
   ],
-  "last_checked": "2026-10-23T09:38:56.657961+00:00",
+  "last_checked": "2026-10-23T14:24:35.015123+00:00",
   "last_report": "2026-10-22T14:49:35.004041+00:00"
 }
