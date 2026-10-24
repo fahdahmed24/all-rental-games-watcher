@@ -134,9 +134,9 @@
     },
     "cronos new dawn": {
       "title": "Cronos New Dawn",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "300 EGP, 375 EGP, 450 EGP",
-      "details": "CURRENTLY RENTED GENERAL Cronos New Dawn ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW GENERAL Cronos New Dawn ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "borderlands 4": {
       "title": "Borderlands 4",
@@ -512,8 +512,15 @@
       "old_status": "Currently rented",
       "new_status": "Available",
       "price": "250 EGP, 325 EGP, 375 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Cronos New Dawn",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "300 EGP, 375 EGP, 450 EGP"
     }
   ],
-  "last_checked": "2026-10-24T09:00:45.993166+00:00",
+  "last_checked": "2026-10-24T13:15:26.430894+00:00",
   "last_report": "2026-10-23T14:35:39.410309+00:00"
 }
