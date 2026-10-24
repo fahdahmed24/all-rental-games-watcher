@@ -428,9 +428,9 @@
     },
     "the blood of dawnwalker": {
       "title": "The Blood of Dawnwalker",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "450 EGP, 550 EGP, 650 EGP",
-      "details": "AVAILABLE NOW GENERAL The Blood of Dawnwalker ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "CURRENTLY RENTED GENERAL The Blood of Dawnwalker ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "silent hill townfall": {
       "title": "SILENT HILL Townfall",
@@ -439,7 +439,15 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-10-24T16:40:56.044443+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "The Blood of Dawnwalker",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "450 EGP, 550 EGP, 650 EGP"
+    }
+  ],
+  "last_checked": "2026-10-24T19:09:28.631176+00:00",
   "last_report": "2026-10-24T13:48:15.919751+00:00"
 }
