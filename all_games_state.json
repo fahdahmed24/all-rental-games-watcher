@@ -176,9 +176,9 @@
     },
     "lies of p: overture bundle": {
       "title": "Lies of P: Overture Bundle",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "250 EGP, 325 EGP, 375 EGP",
-      "details": "CURRENTLY RENTED GENERAL Lies of P: Overture Bundle ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 250 EGP 21 days 325 EGP 30 days 375 EGP RENTAL PRICE 250 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW GENERAL Lies of P: Overture Bundle ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 250 EGP 21 days 325 EGP 30 days 375 EGP RENTAL PRICE 250 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "kingdom come: deliverance ii": {
       "title": "Kingdom Come: Deliverance II",
@@ -505,8 +505,15 @@
       "title": "Resonance A Plague Tale Legacy (Arabic)",
       "status": "Available",
       "price": "450 EGP, 560 EGP, 700 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Lies of P: Overture Bundle",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "250 EGP, 325 EGP, 375 EGP"
     }
   ],
-  "last_checked": "2026-10-24T04:26:01.223031+00:00",
+  "last_checked": "2026-10-24T09:00:45.993166+00:00",
   "last_report": "2026-10-23T14:35:39.410309+00:00"
 }
