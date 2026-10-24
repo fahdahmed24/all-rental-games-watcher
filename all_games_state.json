@@ -188,9 +188,9 @@
     },
     "dispatch": {
       "title": "Dispatch",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "300 EGP, 375 EGP, 425 EGP",
-      "details": "CURRENTLY RENTED GENERAL Dispatch ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 425 EGP RENTAL PRICE 300 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW GENERAL Dispatch ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 425 EGP RENTAL PRICE 300 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "nioh 3": {
       "title": "Nioh 3",
@@ -446,8 +446,15 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "450 EGP, 550 EGP, 650 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Dispatch",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "300 EGP, 375 EGP, 425 EGP"
     }
   ],
-  "last_checked": "2026-10-24T19:09:28.631176+00:00",
+  "last_checked": "2026-10-24T21:32:01.368744+00:00",
   "last_report": "2026-10-24T13:48:15.919751+00:00"
 }
