@@ -416,9 +416,9 @@
     },
     "onimusha: way of the sword (arabic)": {
       "title": "Onimusha: Way of the Sword (Arabic)",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "475 EGP, 595 EGP, 745 EGP",
-      "details": "CURRENTLY RENTED ARABIC GENERAL Onimusha: Way of the Sword (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 475 EGP 21 days 595 EGP 30 days 745 EGP RENTAL PRICE 475 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW ARABIC GENERAL Onimusha: Way of the Sword (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 475 EGP 21 days 595 EGP 30 days 745 EGP RENTAL PRICE 475 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "control resonant": {
       "title": "CONTROL Resonant",
@@ -453,8 +453,15 @@
       "old_status": "Currently rented",
       "new_status": "Available",
       "price": "300 EGP, 375 EGP, 425 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Onimusha: Way of the Sword (Arabic)",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "475 EGP, 595 EGP, 745 EGP"
     }
   ],
-  "last_checked": "2026-10-25T06:52:06.070412+00:00",
+  "last_checked": "2026-10-25T12:11:46.476186+00:00",
   "last_report": "2026-10-24T13:48:15.919751+00:00"
 }
