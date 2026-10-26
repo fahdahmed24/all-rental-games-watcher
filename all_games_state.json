@@ -439,22 +439,7 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Little Nightmares III (Arabic)",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "250 EGP, 310 EGP, 375 EGP"
-    },
-    {
-      "type": "status",
-      "title": "Ghost of Yotei (Arabic)",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "400 EGP, 500 EGP, 600 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-10-26T14:07:05.511304+00:00",
-  "last_report": "2026-10-25T14:03:40.264189+00:00"
+  "last_report": "2026-10-26T16:25:37.809840+00:00"
 }
