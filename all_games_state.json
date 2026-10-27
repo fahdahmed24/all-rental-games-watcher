@@ -80,9 +80,9 @@
     },
     "clair obscur: expedition 33 (arabic)": {
       "title": "Clair Obscur: Expedition 33 (Arabic)",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "300 EGP, 375 EGP, 450 EGP",
-      "details": "AVAILABLE NOW ARABIC GENERAL Clair Obscur: Expedition 33 (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "CURRENTLY RENTED ARABIC GENERAL Clair Obscur: Expedition 33 (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "saros (arabic)": {
       "title": "SAROS (Arabic)",
@@ -439,7 +439,15 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-10-27T14:25:20.349294+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "Clair Obscur: Expedition 33 (Arabic)",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "300 EGP, 375 EGP, 450 EGP"
+    }
+  ],
+  "last_checked": "2026-10-27T19:40:24.647707+00:00",
   "last_report": "2026-10-27T15:40:43.544543+00:00"
 }
