@@ -439,22 +439,7 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Clair Obscur: Expedition 33 (Arabic)",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "300 EGP, 375 EGP, 450 EGP"
-    },
-    {
-      "type": "status",
-      "title": "007 First Light",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "475 EGP, 600 EGP, 725 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-10-28T15:24:55.124551+00:00",
-  "last_report": "2026-10-27T15:40:43.544543+00:00"
+  "last_report": "2026-10-28T16:24:21.839960+00:00"
 }
