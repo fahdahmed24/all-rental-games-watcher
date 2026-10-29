@@ -248,9 +248,9 @@
     },
     "lego® batman™: legacy of the dark knight (arabic)": {
       "title": "LEGO® Batman™: Legacy of the Dark Knight (Arabic)",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "450 EGP, 550 EGP, 650 EGP",
-      "details": "CURRENTLY RENTED ARABIC GENERAL LEGO® Batman™: Legacy of the Dark Knight (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW ARABIC GENERAL LEGO® Batman™: Legacy of the Dark Knight (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "mouse: p.i. for hire": {
       "title": "MOUSE: P.I. For Hire",
@@ -416,9 +416,9 @@
     },
     "onimusha: way of the sword (arabic)": {
       "title": "Onimusha: Way of the Sword (Arabic)",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "475 EGP, 595 EGP, 745 EGP",
-      "details": "AVAILABLE NOW ARABIC GENERAL Onimusha: Way of the Sword (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 475 EGP 21 days 595 EGP 30 days 745 EGP RENTAL PRICE 475 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "CURRENTLY RENTED ARABIC GENERAL Onimusha: Way of the Sword (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 475 EGP 21 days 595 EGP 30 days 745 EGP RENTAL PRICE 475 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "control resonant": {
       "title": "CONTROL Resonant",
@@ -428,9 +428,9 @@
     },
     "the blood of dawnwalker": {
       "title": "The Blood of Dawnwalker",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "450 EGP, 550 EGP, 650 EGP",
-      "details": "CURRENTLY RENTED GENERAL The Blood of Dawnwalker ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW GENERAL The Blood of Dawnwalker ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "silent hill townfall": {
       "title": "SILENT HILL Townfall",
@@ -446,8 +446,29 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "300 EGP, 375 EGP, 450 EGP"
+    },
+    {
+      "type": "status",
+      "title": "LEGO® Batman™: Legacy of the Dark Knight (Arabic)",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "450 EGP, 550 EGP, 650 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Onimusha: Way of the Sword (Arabic)",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "475 EGP, 595 EGP, 745 EGP"
+    },
+    {
+      "type": "status",
+      "title": "The Blood of Dawnwalker",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "450 EGP, 550 EGP, 650 EGP"
     }
   ],
-  "last_checked": "2026-10-28T20:27:24.875498+00:00",
+  "last_checked": "2026-10-29T00:13:41.599649+00:00",
   "last_report": "2026-10-28T16:24:21.839960+00:00"
 }
