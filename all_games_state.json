@@ -116,9 +116,9 @@
     },
     "astro bot (arabic)": {
       "title": "Astro Bot (Arabic)",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "350 EGP, 430 EGP, 552 EGP",
-      "details": "CURRENTLY RENTED ARABIC GENERAL Astro Bot (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 430 EGP 30 days 552 EGP RENTAL PRICE 350 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW ARABIC GENERAL Astro Bot (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 430 EGP 30 days 552 EGP RENTAL PRICE 350 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "resident evil requiem": {
       "title": "Resident Evil Requiem",
@@ -434,9 +434,9 @@
     },
     "silent hill townfall": {
       "title": "SILENT HILL Townfall",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "400 EGP, 500 EGP, 600 EGP",
-      "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
   "pending_changes": [
@@ -453,8 +453,22 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "475 EGP, 600 EGP, 725 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Astro Bot (Arabic)",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "350 EGP, 430 EGP, 552 EGP"
+    },
+    {
+      "type": "status",
+      "title": "SILENT HILL Townfall",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "400 EGP, 500 EGP, 600 EGP"
     }
   ],
-  "last_checked": "2026-10-29T18:25:26.762879+00:00",
+  "last_checked": "2026-10-29T22:54:35.913006+00:00",
   "last_report": "2026-10-29T16:33:18.673348+00:00"
 }
