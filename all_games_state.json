@@ -290,9 +290,9 @@
     },
     "ready or not": {
       "title": "Ready Or Not",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "325 EGP, 400 EGP, 475 EGP",
-      "details": "AVAILABLE NOW GENERAL Ready Or Not ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 325 EGP 21 days 400 EGP 30 days 475 EGP RENTAL PRICE 325 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "CURRENTLY RENTED GENERAL Ready Or Not ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 325 EGP 21 days 400 EGP 30 days 475 EGP RENTAL PRICE 325 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "little nightmares iii (arabic)": {
       "title": "Little Nightmares III (Arabic)",
@@ -446,8 +446,15 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "450 EGP, 550 EGP, 650 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Ready Or Not",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "325 EGP, 400 EGP, 475 EGP"
     }
   ],
-  "last_checked": "2026-10-31T08:54:42.345180+00:00",
+  "last_checked": "2026-10-31T14:59:08.250204+00:00",
   "last_report": "2026-10-30T16:27:50.242603+00:00"
 }
