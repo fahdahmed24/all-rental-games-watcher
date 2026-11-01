@@ -434,12 +434,20 @@
     },
     "silent hill townfall": {
       "title": "SILENT HILL Townfall",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "400 EGP, 500 EGP, 600 EGP",
-      "details": "AVAILABLE NOW GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-11-01T19:09:59.037616+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "SILENT HILL Townfall",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "400 EGP, 500 EGP, 600 EGP"
+    }
+  ],
+  "last_checked": "2026-11-01T22:49:01.534840+00:00",
   "last_report": "2026-11-01T16:32:41.412638+00:00"
 }
