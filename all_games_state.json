@@ -422,9 +422,9 @@
     },
     "control resonant": {
       "title": "CONTROL Resonant",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "450 EGP, 550 EGP, 650 EGP",
-      "details": "AVAILABLE NOW GENERAL CONTROL Resonant ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "CURRENTLY RENTED GENERAL CONTROL Resonant ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 550 EGP 30 days 650 EGP RENTAL PRICE 450 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "the blood of dawnwalker": {
       "title": "The Blood of Dawnwalker",
@@ -453,8 +453,15 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "400 EGP, 500 EGP, 600 EGP"
+    },
+    {
+      "type": "status",
+      "title": "CONTROL Resonant",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "450 EGP, 550 EGP, 650 EGP"
     }
   ],
-  "last_checked": "2026-11-02T08:53:34.406975+00:00",
+  "last_checked": "2026-11-02T18:59:28.839090+00:00",
   "last_report": "2026-11-01T16:32:41.412638+00:00"
 }
