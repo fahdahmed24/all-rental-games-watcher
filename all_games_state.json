@@ -92,9 +92,9 @@
     },
     "split fiction": {
       "title": "Split Fiction",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "300 EGP, 375 EGP, 450 EGP",
-      "details": "AVAILABLE NOW GENERAL Split Fiction ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "CURRENTLY RENTED GENERAL Split Fiction ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 300 EGP 21 days 375 EGP 30 days 450 EGP RENTAL PRICE 300 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "ghost of yotei (arabic)": {
       "title": "Ghost of Yotei (Arabic)",
@@ -453,8 +453,15 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "450 EGP, 560 EGP, 700 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Split Fiction",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "300 EGP, 375 EGP, 450 EGP"
     }
   ],
-  "last_checked": "2026-11-07T08:44:47.167539+00:00",
+  "last_checked": "2026-11-07T15:13:14.556802+00:00",
   "last_report": "2026-11-06T17:06:53.504952+00:00"
 }
