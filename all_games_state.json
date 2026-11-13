@@ -439,22 +439,7 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Nioh 3",
-      "old_status": "Available",
-      "new_status": "Currently rented",
-      "price": "400 EGP, 500 EGP, 600 EGP"
-    },
-    {
-      "type": "status",
-      "title": "The Blood of Dawnwalker",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "450 EGP, 550 EGP, 650 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-11-13T10:43:46.249153+00:00",
-  "last_report": "2026-11-12T17:51:39.601382+00:00"
+  "last_report": "2026-11-13T17:27:49.962045+00:00"
 }
