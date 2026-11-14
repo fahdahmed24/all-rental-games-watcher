@@ -398,9 +398,9 @@
     },
     "resonance a plague tale legacy (arabic)": {
       "title": "Resonance A Plague Tale Legacy (Arabic)",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "450 EGP, 560 EGP, 700 EGP",
-      "details": "CURRENTLY RENTED ARABIC GENERAL Resonance A Plague Tale Legacy (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW ARABIC GENERAL Resonance A Plague Tale Legacy (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 450 EGP 21 days 560 EGP 30 days 700 EGP RENTAL PRICE 450 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "the sinking city 2": {
       "title": "The Sinking City 2",
@@ -439,7 +439,15 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-11-14T10:51:26.295403+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "Resonance A Plague Tale Legacy (Arabic)",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "450 EGP, 560 EGP, 700 EGP"
+    }
+  ],
+  "last_checked": "2026-11-14T16:46:17.316485+00:00",
   "last_report": "2026-11-14T16:19:27.872156+00:00"
 }
