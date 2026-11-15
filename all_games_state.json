@@ -439,15 +439,7 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [
-    {
-      "type": "status",
-      "title": "Resonance A Plague Tale Legacy (Arabic)",
-      "old_status": "Currently rented",
-      "new_status": "Available",
-      "price": "450 EGP, 560 EGP, 700 EGP"
-    }
-  ],
+  "pending_changes": [],
   "last_checked": "2026-11-15T14:57:48.153872+00:00",
-  "last_report": "2026-11-14T16:19:27.872156+00:00"
+  "last_report": "2026-11-15T16:45:07.610382+00:00"
 }
