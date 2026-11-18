@@ -266,9 +266,9 @@
     },
     "stellar blade (arabic)": {
       "title": "Stellar Blade (Arabic)",
-      "status": "Available",
+      "status": "Currently rented",
       "price": "350 EGP, 440 EGP, 525 EGP",
-      "details": "AVAILABLE NOW ARABIC GENERAL Stellar Blade (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 440 EGP 30 days 525 EGP RENTAL PRICE 350 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "CURRENTLY RENTED ARABIC GENERAL Stellar Blade (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 350 EGP 21 days 440 EGP 30 days 525 EGP RENTAL PRICE 350 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "the last of us remake": {
       "title": "The Last of Us Remake",
@@ -439,7 +439,15 @@
       "details": "CURRENTLY RENTED GENERAL SILENT HILL Townfall ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 400 EGP 21 days 500 EGP 30 days 600 EGP RENTAL PRICE 400 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     }
   },
-  "pending_changes": [],
-  "last_checked": "2026-11-18T12:27:00.639926+00:00",
+  "pending_changes": [
+    {
+      "type": "status",
+      "title": "Stellar Blade (Arabic)",
+      "old_status": "Available",
+      "new_status": "Currently rented",
+      "price": "350 EGP, 440 EGP, 525 EGP"
+    }
+  ],
+  "last_checked": "2026-11-18T20:49:16.184425+00:00",
   "last_report": "2026-11-18T18:35:23.204546+00:00"
 }
