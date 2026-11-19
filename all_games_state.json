@@ -68,9 +68,9 @@
     },
     "dying light the beast (arabic)": {
       "title": "Dying Light The Beast (Arabic)",
-      "status": "Currently rented",
+      "status": "Available",
       "price": "325 EGP, 400 EGP, 475 EGP",
-      "details": "CURRENTLY RENTED ARABIC GENERAL Dying Light The Beast (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 325 EGP 21 days 400 EGP 30 days 475 EGP RENTAL PRICE 325 EGP + 50% refundable deposit NOTIFY ME The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
+      "details": "AVAILABLE NOW ARABIC GENERAL Dying Light The Beast (Arabic) ACCOUNT OPTION Primary PS5 Secondary RENTAL PERIOD 14 days 325 EGP 21 days 400 EGP 30 days 475 EGP RENTAL PRICE 325 EGP + 50% refundable deposit ADD TO CART BUY NOW The security deposit is refundable after the rental period ends, you remove the game from your device, and send us confirmation of removal."
     },
     "hellblade 2 (arabic)": {
       "title": "Hellblade 2 (Arabic)",
@@ -446,8 +446,15 @@
       "old_status": "Available",
       "new_status": "Currently rented",
       "price": "350 EGP, 440 EGP, 525 EGP"
+    },
+    {
+      "type": "status",
+      "title": "Dying Light The Beast (Arabic)",
+      "old_status": "Currently rented",
+      "new_status": "Available",
+      "price": "325 EGP, 400 EGP, 475 EGP"
     }
   ],
-  "last_checked": "2026-11-18T20:49:16.184425+00:00",
+  "last_checked": "2026-11-19T02:04:43.745668+00:00",
   "last_report": "2026-11-18T18:35:23.204546+00:00"
 }
